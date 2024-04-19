@@ -234,9 +234,10 @@ text-align: center;
 
 .ultimobanner img {
     width: 100%; 
-    position: center    ;
     height: auto; 
     display: block;
+    max-width: 100%;
+    overflow: hidden;
 
 }
 
