@@ -22,12 +22,12 @@ header {
 
     width: auto;
     height: 8px;
-    background-image: linear-gradient(  to right, #FFF, #74A9DB );
+    background-image: linear-gradient(to right, #FFF, #74A9DB);
     border: none;
-    }
+}
 
 .header-container {
-    
+
     font-family: "Inter", sans-serif;
     max-width: auto;
     display: inline-flex;
@@ -49,7 +49,7 @@ header {
     color: #636363;
     text-decoration: none;
 
-    
+
 }
 
 
@@ -76,13 +76,107 @@ header {
 
 
 
-.banner {
 
-    background-color: #272727;
-    height: 50vh;
-    width: 50;
+.banner1 {
+
+    background-position: center center;
 
 }
+
+
+.titulobuscar {
+
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: bolder;
+    color: #74A9DB;
+    text-align: center;
+
+}
+
+.subtitulobuscar {
+
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    color: #858585;
+    text-align: center;
+
+}
+
+
+.comidas-container {
+
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.comidaargentina {
+
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #74A9DB;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.comidabrasileira {
+
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #74A9DB;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.comidachilena{
+
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #74A9DB;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.comidacolombiana {
+
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #74A9DB;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+
+.comidaperuana {
+
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #74A9DB;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+
 
 
 
