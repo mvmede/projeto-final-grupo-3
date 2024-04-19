@@ -1,100 +1,92 @@
-
-/*HEADER*/
+/*----------------------------------------------------------HEADER----------------------------------------------------------*/
 
 * {
 
-    background-color: #F5EBDC;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 
 }
 
-a {
 
-    color: #502314;
-    text-decoration: none;
-    transition: 0.3s;
+header {
 
-}
-
-
-a:hover {
-
-    opacity: 0.7;
-
-}
-
-
-.logoprincipal {
-
+    margin-top: 1%;
+    margin-bottom: 1%;
     display: flex;
 
 }
 
-.logo {
 
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+.linhaheader {
 
-}
+    width: auto;
+    height: 8px;
+    background-image: linear-gradient(  to right, #FFF, #74A9DB );
+    border: none;
+    }
 
-nav {
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-    background: #F5EBDC;
-    height: 14vh;
-
-}
-
-main {
-
-    background: url("bg.jpg") no-repeat
-    center center;
-    background-size: cover;
-    height: 92vh;
-
-}
-
-.nav-list {
-
+.header-container {
+    
     font-family: "Inter", sans-serif;
-    list-style: none;
-    display: flex;
+    max-width: auto;
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 
-.nav-list  li {
+.menu-header ul li {
 
-    list-style: 3px;
-    margin-left: 32px;
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+.menu-header ul li a {
+
+    color: #636363;
+    text-decoration: none;
+
     
 }
 
 
-.banner {
+.fazerpedidos {
 
-    height: 50vh;
-    width:50;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+
 
 }
 
-.banner2 {
+
+
+/*----------------------------------------------------------BODY----------------------------------------------------------*/
+
+
+
+.banner {
 
     background-color: #272727;
     height: 50vh;
-    width:50;
+    width: 50;
 
 }
 
 
 
-
-
-/*FOOTER*/
+/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
 
 
 
@@ -110,7 +102,7 @@ footer {
     display: inline-flex;
     margin: 0 auto;
     justify-content: flex-start;
-    align-items: center;   
+    align-items: center;
 }
 
 .menu ul {
@@ -130,11 +122,13 @@ footer {
 
 .social-icons {
     margin-left: 20px;
-    display: flex; /* Adiciona display flex para os ícones sociais */
+    display: flex;
+    /* Adiciona display flex para os ícones sociais */
 }
 
 .social-icons a {
-    margin-left: 10px; /* Ajusta a margem entre os ícones */
+    margin-left: 10px;
+    /* Ajusta a margem entre os ícones */
 }
 
 .social-icons img {
