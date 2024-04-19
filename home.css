@@ -231,6 +231,18 @@ text-align: center;
 }
 
 
+
+.ultimobanner img {
+    width: 100%; 
+    position: center    ;
+    height: auto; 
+    display: block;
+
+}
+
+
+
+
 /*----------------------------------------------------------FOOTER----------------------------------------------------------*/
 
 
@@ -245,26 +257,40 @@ footer {
 }
 
 .footer-container {
-    max-width: 1200px;
+    font-family: "Inter", sans-serif;
+    max-width: auto;
     display: inline-flex;
     margin: 0 auto;
     justify-content: flex-start;
     align-items: center;
 }
 
-.menu ul {
+.menufooter ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    
 }
 
-.menu li {
+.menufooter li {
     display: inline-block;
     margin-right: 40px;
+    font-size: 14px;
+
+
 }
 
-.menu li:last-child {
+
+.menufooter ul li a {
+
+    color: #636363;
+    text-decoration: none;
+
+}
+
+.menufooter li:last-child {
     margin-right: 0;
+    
 }
 
 .social-icons {
@@ -284,6 +310,8 @@ footer {
 
 .creditos {
     margin-top: 20px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
 }
 
