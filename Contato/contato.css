@@ -1,0 +1,248 @@
+/*----------------------------------------------------------HEADER----------------------------------------------------------*/
+
+* {
+
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    background-color: #ffffff;
+    color:#74A9DB;
+    padding: 10px 20px;
+    border-bottom: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    font-family: "Inter", sans-serif;
+    max-width: auto;
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-header ul li {
+
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+.menu-header ul li a {
+
+    color: #636363;
+    text-decoration: none;
+
+
+}
+
+.fazerpedidos {
+
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+
+
+}
+
+/*----------------------------------------------------------BODY----------------------------------------------------------*/
+
+/*----------------------------------------------------------CONTATOS--------------------------------------------------*/
+
+.titulo_contato {
+
+    color: #74A9DB;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.imagemperfil {
+
+    padding-right: 34px;
+
+}
+
+.perfil1 {
+
+    display: inline-block;
+    align-items: top;
+    align-items: center;
+    padding-right: 40px;
+    font-family: "Inter";
+}
+
+.perfil2 {
+
+    display: inline-block;
+    align-items: top;
+    align-items: center;
+
+    font-family: "Inter";
+}
+
+.perfil3 {
+
+    display: inline-block;
+    align-items: top;
+    align-items: center;
+    padding-right: 40px;
+    font-family: "Inter";
+}
+
+.perfil4 {
+
+    display: inline-block;
+    align-items: top;
+    align-items: center;
+
+    font-family: "Inter";
+}
+
+.nome {
+    font-size: 32px;
+    color: #74A9DB;
+    font-weight: bold;
+}
+
+.email {
+
+    font-size: 18px;
+}
+
+
+section {
+
+    display: grid;
+    place-items: center;
+
+}
+
+
+
+
+/*----------------------------------------------------------SOBRE O PROJETO--------------------------------------------------*/
+.titulo_sobre_o_projeto {
+
+    color: #74A9DB;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.boldtext{
+    color: #00923F;
+    font-weight: bold;
+
+}
+
+.texto_sobre_o_projeto  {
+    height: 100%;
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    color: 262626;
+}
+
+.texto {
+
+    text-align: center;
+
+}
+
+/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
+
+
+
+
+footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+}
+
+.footer-container {
+    font-family: "Inter", sans-serif;
+    max-width: auto;
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menufooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menufooter li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+
+.menufooter ul li a {
+    color: #636363;
+    text-decoration: none;
+}
+
+.menufooter li:last-child {
+    margin-right: 0; 
+}
+
+.social-icons {
+    margin-left: 20px;
+    display: flex;
+    /* Adiciona display flex para os ícones sociais */
+}
+
+.social-icons a {
+    margin-left: 10px;
+    /* Ajusta a margem entre os ícones */
+}
+
+.social-icons img {
+    display: flex;
+}
+
+.creditos {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.logo-footer {
+    margin-right: 50px;
+}
