@@ -24,7 +24,7 @@ header {
 }
 
 .header-container {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     max-width: auto;
     display: inline-flex;
     margin: 0 auto;
