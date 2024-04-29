@@ -79,7 +79,7 @@ section{
 
 .botao-voltar {
     position: relative;
-    top: 100px;
+    top: 200px;
     left: calc(50%  - 500px);
     font-size: 20px;
     color: #74A9DB;
@@ -103,7 +103,7 @@ section{
 
 .destaquescontainer {
     position: relative;
-    top: 150px;
+    top: 250px;
     left: calc(50%  - 500px);
     width: 1000px;
     display: grid;
