@@ -85,20 +85,20 @@ section{
     color: #74A9DB;
     cursor: pointer;
     font-family: "Inter", sans-serif;
-    padding-left: 20px; /* Adiciona espaço para o triângulo */
-    padding-right: 20px; /* Adiciona espaço para o texto */
-    display: inline-block; /* Garante que o botão tenha o tamanho do conteúdo */
+    padding-left: 20px; 
+    padding-right: 20px;
+    display: inline-block; 
 }
 
 .Back_Button::before {
-    content: ""; /* Adiciona conteúdo ao pseudo-elemento */
-    position: absolute; /* Posicionamento absoluto em relação ao botão */
-    top: 50%; /* Ajusta a posição verticalmente */
-    left: -5px; /* Posiciona à esquerda do botão */
-    transform: translateY(-50%); /* Centraliza verticalmente */
-    border-width: 8px 8px 8px 0; /* Define as dimensões do triângulo */
-    border-style: solid; /* Estilo da borda */
-    border-color: transparent #74A9DB transparent transparent; /* Cor do triângulo */
+    content: ""; 
+    position: absolute;
+    top: 50%; 
+    left: -5px;
+    transform: translateY(-50%); 
+    border-width: 8px 8px 8px 0; 
+    border-style: solid; 
+    border-color: transparent #74A9DB transparent transparent;
 }
 
 .Product_Container {
@@ -204,12 +204,10 @@ footer {
 .social-icons {
     margin-left: 20px;
     display: flex;
-    /* Adiciona display flex para os ícones sociais */
 }
 
 .social-icons a {
     margin-left: 10px;
-    /* Ajusta a margem entre os ícones */
 }
 
 .social-icons img {
