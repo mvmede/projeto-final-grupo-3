@@ -1,0 +1,221 @@
+/*----------------------------------------------------------HEADER----------------------------------------------------------*/
+
+* {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #ffffff;
+    color:#74A9DB;
+    padding: 10px 20px;
+    border-bottom: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: relative;
+}
+
+.header-container {
+    font-family: "Inter", sans-serif;
+    max-width: auto;
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.menu-header ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.menu-header ul li a {
+    color: #636363;
+    text-decoration: none;
+}
+
+.fazerpedidos {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 8px ;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+}
+
+/*----------------------------------------------------------BODY----------------------------------------------------------*/
+
+
+.Back_Button {
+    position: relative;
+    left: calc(50%  - 500px);
+    font-size: 20px;
+    color: #74A9DB;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.title-page {
+    color: #74A9DB;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text-input-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+
+}
+
+.input-cidade,
+.input-bairro,
+.input-numero,
+.input-rua,
+.input-cep,
+.input-name,
+.input-cellphone,
+.input-email  {
+    margin: 10px  ; 
+
+}
+
+
+.input-name,
+.input-cellphone,
+.input-email  {
+    width: 120px; 
+}
+
+
+.input-text-name {
+
+    padding: 20px;
+
+}
+.text-input-container  p {
+    font-family: "Inter";
+    font-weight: normal;
+    padding-bottom: 8px;
+}
+
+.input-cidade,
+.input-bairro,
+.input-numero,
+.input-rua,
+.input-cep,
+.input-name,
+.input-cellphone,
+.input-email  {
+    width: 354px;
+    height: 54px;
+    border-radius: 8px;
+    border-color: #909090;
+}
+
+.button-container{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.advance {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 8px ;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+}
+
+/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
+
+footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+
+}
+
+.footer-container {
+    font-family: "Inter", sans-serif;
+    max-width: auto;
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menufooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menufooter li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+.menufooter ul li a {
+    color: #636363;
+    text-decoration: none;
+}
+
+.menufooter li:last-child {
+    margin-right: 0;
+}
+
+.social-icons {
+    margin-left: 20px;
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    display: flex;
+}
+
+.creditos {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.logo-footer {
+    margin-right: 50px;
+}
