@@ -1,10 +1,11 @@
-* {
+/*----------------------------------------------------------HEADER----------------------------------------------------------*/
 
+* {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-
 }
+
 
 header {
     background-color: #ffffff;
@@ -30,39 +31,80 @@ header {
 }
 
 .menu-header ul li {
-
     display: inline-block;
     margin-right: 40px;
-
 }
 
 .menu-header ul li a {
-
     color: #636363;
     text-decoration: none;
-
 }
 
 .fazerpedidos {
-
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 8px 8px;
+    padding: 8px 8px ;
     padding-left: 32px;
     padding-right: 32px;
     font-weight: 600;
     background-color: #74A9DB;
+}
 
+/*----------------------------------------------------------BODY----------------------------------------------------------*/
+
+
+.banner1-contenedor {
+    margin-top: 100px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.banner1-contenedor img {
+    width: 100%; 
+    position: center;
+    height: auto; 
+    display: block;
+}
+
+.titulocardapio {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 900;
+    color: #74A9DB;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 
- /*------------------------------------FOOTER-------------------------*/
+.comidas-container {
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
- footer {
+.comidas-container p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #959ca3;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.comidas-container p a {
+    text-decoration: none; /* Remover sublinhado */
+    color: inherit; /* Herdar a cor do texto */
+}
+
+/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
+
+footer {
     background-color: white;
     padding: 20px 0;
     text-align: center;
@@ -90,32 +132,24 @@ header {
     display: inline-block;
     margin-right: 40px;
     font-size: 14px;
-
-
 }
 
-
 .menufooter ul li a {
-
     color: #636363;
     text-decoration: none;
-
 }
 
 .menufooter li:last-child {
     margin-right: 0;
-    
 }
 
 .social-icons {
     margin-left: 20px;
     display: flex;
-    /* Adiciona display flex para os ícones sociais */
 }
 
 .social-icons a {
     margin-left: 10px;
-    /* Ajusta a margem entre os ícones */
 }
 
 .social-icons img {
