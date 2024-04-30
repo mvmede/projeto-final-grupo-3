@@ -126,15 +126,6 @@ header {
 
 
 
-
-
-
-    
-
-
-
-
-
 .contador {
    display: flex;
    align-items: center;
@@ -183,6 +174,17 @@ header {
    border-radius: 8px;
     
  }
+
+ .linha-meio {
+    height: 2px;
+    background-color: #74A9DB;
+    margin-top: 500px;
+    margin-left: 200px;
+    margin-right: 200px; 
+    
+ 
+}
+
  
    
  
