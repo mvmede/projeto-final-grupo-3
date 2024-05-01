@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+body {
+    padding-top: 100px;
+}
+
+
 
 header {
     background-color: #ffffff;
@@ -18,7 +23,6 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
 }
 
 .header-container {
@@ -58,9 +62,10 @@ header {
 
 
 .banner1-contenedor {
-    margin-top: 100px;
+    margin-top: 40px;
     max-width: 100%;
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 .banner1-contenedor img {
@@ -102,9 +107,28 @@ header {
     color: inherit; /* Herdar a cor do texto */
 }
 
+/*!----------------------------------------CONTAINER-COMIDAS----------------------------------------*/
+.container-comidas {
+    display: flex;
+    width: 1100px;
+    gap: 83px ;
+    /*background-color: #636363;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.comida {
+    width: 420px;
+    height: 559px;
+
+}
+
+
 /*----------------------------------------------------------FOOTER----------------------------------------------------------*/
 
 footer {
+
     background-color: white;
     padding: 20px 0;
     text-align: center;
