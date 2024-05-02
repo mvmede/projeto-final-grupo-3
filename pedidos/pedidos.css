@@ -3,8 +3,23 @@
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    
 
 }
+
+body {
+    
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Para garantir que a altura do contêiner seja igual à altura da janela de visualização */
+}
+
 
 
 header {
@@ -66,6 +81,9 @@ header {
 
 
 /*----------------------------------------------------------BODY----------------------------------------*/
+
+
+
 
 
 .button-back {
@@ -222,16 +240,12 @@ header {
     background-color: #74A9DB;
     margin-top: 60px;
     margin-left: 200px;
-    margin-right: 200px; 
+    margin-right: 180px; 
     margin-bottom: 0px;
     
     }
 
-.oreder2{
 
-
-    
-}    
 
 .dish2-title {
     
@@ -302,7 +316,7 @@ header {
     height: 2px;
     background-color: #74A9DB;
     margin-left: 200px;
-    margin-right: 200px; 
+    margin-right: 180px; 
     margin-top: 60px;
 
     }
@@ -350,7 +364,7 @@ header {
 
 
 
-footer{
+.footer{
     
     background-color: white;
     padding: 20px 0;
@@ -358,25 +372,29 @@ footer{
     border-top: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
     margin-top: 100px;
-   
+    
    }
 
+   
 .footer-container {
     
     font-family: "Inter", sans-serif;
     max-width: auto;
     display: inline-flex;
     margin-top:30px ;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 650px;
    
-    }
+   }
+
 
 .menufooter ul {
     
     list-style: none;
     padding: 0;
     margin: 0;
+   
     
     }
 
@@ -422,13 +440,13 @@ footer{
    
     }
 
-.linha-azul {
+.blue-line {
     
     height: 2px;
     background-color: #74A9DB;
     margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 200px; 
+    margin-left: 550px;
+    margin-right: 530px; 
 
     }
 
@@ -438,6 +456,7 @@ footer{
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-size: 14px;
+    margin-left: 700px;
 
    }
 
