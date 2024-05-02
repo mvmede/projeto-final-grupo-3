@@ -70,31 +70,30 @@ header {
 
 .button-back {
     
-    position: absolute;
-    bottom: 400px; 
-    right: 1000px; 
-    color: #74A9DB;
-    cursor: pointer;
-    font-family: "Inter", sans-serif;
-    padding-left: 20px; 
-    padding-right: 20px; 
-    display: inline-block; 
     
-    }
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 1000px;
+    color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    position: relative;
+    cursor: pointer;
+    
+}
 
 .button-back::before {
     
     content: ""; 
-    position: absolute; 
-    top: 50%; 
-    left: -5px; 
+    position: absolute;
+    margin-top: 10px; 
+    margin-left: -15px;
     transform: translateY(-50%);
     border-width: 8px 8px 8px 0;
     border-style: solid; 
     border-color: transparent #74A9DB transparent transparent; 
     
     }
-
+   
 
 .title{
 
@@ -102,9 +101,15 @@ header {
     position: absolute;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
-    margin-top: 250px;
+    margin-top: 10px;
     margin-left: 550px;
     margin-right: 100px;
+
+   }
+
+   .order1{
+   
+    margin-top: -300px;
 
    }
 
@@ -221,6 +226,12 @@ header {
     margin-bottom: 0px;
     
     }
+
+.oreder2{
+
+
+    
+}    
 
 .dish2-title {
     
@@ -435,5 +446,3 @@ footer{
     margin-right: 50px;
 
     }
-
-    
