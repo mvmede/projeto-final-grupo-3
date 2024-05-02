@@ -7,6 +7,13 @@
 
 }
 
+a{
+
+text-decoration: none;
+color: #74A9DB;
+
+}
+
 body {
     
     overflow-x: hidden; /* Impede a barra de rolagem horizontal */
@@ -35,6 +42,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+
 }
 
 .header-container {
@@ -128,6 +136,7 @@ header {
    .order1{
    
     margin-top: -300px;
+    font-family: "Inter", sans-serif;
 
    }
 
@@ -138,7 +147,6 @@ header {
     
     text-align: center;
     position: absolute;
-    font-family: "Inter", sans-serif;
     margin-left: 230px;
     margin-top: 400px;
     margin-right:10px;
@@ -245,6 +253,12 @@ header {
     
     }
 
+    .order2{
+
+        font-family: "Inter", sans-serif;
+
+    }
+
 
 
 .dish2-title {
@@ -252,7 +266,6 @@ header {
     
     text-align: center;
     position: absolute;
-    font-family: "Inter", sans-serif;
     margin-left: 200px;
     margin-top: 40px;
     margin-right: 50px;
@@ -364,10 +377,14 @@ header {
 
 
 
-.footer{
+footer{
     
     background-color: white;
-    padding: 20px 0;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     border-top: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
@@ -381,10 +398,9 @@ header {
     font-family: "Inter", sans-serif;
     max-width: auto;
     display: inline-flex;
-    margin-top:30px ;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 650px;
+    
    
    }
 
@@ -456,7 +472,7 @@ header {
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-size: 14px;
-    margin-left: 700px;
+   
 
    }
 
