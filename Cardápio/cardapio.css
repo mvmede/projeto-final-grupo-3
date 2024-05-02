@@ -10,8 +10,6 @@ body {
     padding-top: 100px;
 }
 
-
-
 header {
     background-color: #ffffff;
     color:#74A9DB;
@@ -60,7 +58,6 @@ header {
 
 /*----------------------------------------------------------BODY----------------------------------------------------------*/
 
-
 .banner1-contenedor {
     margin-top: 40px;
     max-width: 100%;
@@ -83,7 +80,6 @@ header {
     text-align: center;
     padding-bottom: 40px;
 }
-
 
 .comidas-container {
     flex-wrap: wrap;
@@ -121,7 +117,6 @@ header {
     font-family: "inter";
 }
 
-
 .comida {
     width: 420px;
     height: 559px;
@@ -134,6 +129,11 @@ header {
     font-size: 39px;
     font-weight: bolder;
     margin: 10px 0;
+}
+
+.titulocomida a {
+    text-decoration: none;
+    color: #262626;
 }
 
 .valor {
@@ -164,7 +164,7 @@ header {
 /*----------------------------------------------------------FOOTER----------------------------------------------------------*/
 
 footer {
-
+    margin-top: 19px;
     background-color: white;
     padding: 20px 0;
     text-align: center;
@@ -173,6 +173,7 @@ footer {
 }
 
 .footer-container {
+    
     font-family: "Inter", sans-serif;
     max-width: auto;
     display: inline-flex;
@@ -185,7 +186,6 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
-    
 }
 
 .menufooter li {
