@@ -57,18 +57,37 @@ header {
 
 /*----------------------------------------------------------BODY----------------------------------------------------------*/
 
+a {
+    color: #74A9DB;
+    text-decoration: none;
+}
 
 .Back_Button {
     position: relative;
-    left: calc(50%  - 500px);
+    left: calc(50%  - 550px);
+    top: 40px;
     font-size: 20px;
     color: #74A9DB;
+    cursor: pointer;
     font-family: "Inter", sans-serif;
+    padding-left: 20px; 
+    padding-right: 20px;
+    display: inline-block; 
 }
 
-
+.Back_Button::before {
+    content: ""; 
+    position: absolute;
+    top: 50%; 
+    left: -5px;
+    transform: translateY(-50%); 
+    border-width: 8px 8px 8px 0; 
+    border-style: solid; 
+    border-color: transparent #74A9DB transparent transparent;
+}
 
 .title-page {
+    padding-top: 80px;
     color: #74A9DB;
     font-family: "Inter";
     font-size: 40px;
@@ -76,41 +95,23 @@ header {
     text-align: center;
 }
 
-.text-input-container {
+.input-container {
 
     display: flex;
     justify-content: center;
     align-items: left;
     flex-wrap: wrap;
-
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 0px;
 }
-
-.input-cidade,
-.input-bairro,
-.input-numero,
-.input-rua,
-.input-cep,
-.input-name,
-.input-cellphone,
-.input-email  {
-    margin: 10px  ; 
-
-}
-
-
-.input-name,
-.input-cellphone,
-.input-email  {
-    width: 120px; 
-}
-
 
 .input-text-name {
-
     padding: 20px;
-
 }
-.text-input-container  p {
+
+.input-container  p {
     font-family: "Inter";
     font-weight: normal;
     padding-bottom: 8px;
@@ -127,17 +128,15 @@ header {
     width: 354px;
     height: 54px;
     border-radius: 8px;
-    border-color: #909090;
+    border: 2px solid #74A9DB;
+    margin: 10px; 
 }
 
 .button-container{
-
-
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
-
 }
 
 .advance {
@@ -162,7 +161,6 @@ footer {
     text-align: center;
     border-top: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-
 }
 
 .footer-container {
@@ -178,7 +176,6 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
-    
 }
 
 .menufooter li {
