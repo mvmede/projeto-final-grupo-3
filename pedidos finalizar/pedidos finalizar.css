@@ -147,7 +147,7 @@ header {
     
     text-align: center;
     position: absolute;
-    margin-left: 230px;
+    margin-left: 200px;
     margin-top: 400px;
     margin-right:10px;
     color: #74A9DB; 
@@ -160,7 +160,7 @@ header {
         
     font-size: 10px; 
     color: black;
-    margin-left: 210px;
+    margin-left: 200px;
     margin-top: 450px;
     
    
@@ -334,25 +334,146 @@ header {
 
     }
 
+.down{
+
+        margin-top: 50px;
+        font-family: "Inter", sans-serif;
+        
+    }
+
+.add-order{
+        
+        border-radius: 8px;
+        border: 1px solid;
+        border-color: #74A9DB;
+        font-family: "Inter", sans-serif;
+        font-size: medium;
+        padding: 8px 8px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-weight: 600;
+        margin-left: 550px;
+        margin-bottom: 50px;
+        
+       
+    }
+
+        
+.final-dish1, .final-price-dish1, .final-dish2, .final-price-dish2{
+
+        display: inline-block;
+           
+    } 
+
+.final1{
+
+        margin-top: -50px;
+
+    }
+
+.final-dish1 {
+            
+        margin-left: 200px;
+           
+    }
+        
+.final-price-dish1 {
+            
+        margin-left: 765px;
+            
+    }
+
+.final2{
+
+        
+        margin-top: 30px;
+
+    }
+
+.final-dish2 {
+            
+        margin-left: 200px;
+           
+    }
+        
+.final-price-dish2 {
+            
+        margin-left: 712px;
+            
+            
+    }
+
 .subtotal{
 
-    color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    margin-top: 50px;
-    margin-left: 200px;
+        margin-top: 50px;
+        margin-left: 200px;
+    
 
     }
 
 .final-price{
 
-        color: #74A9DB;
-        font-family: "Inter", sans-serif;
+        
+        
         margin-top: -20px;
-        margin-left: 1050px;
+        margin-left: 1046px;
 
     }
 
-.button-advance{
+.delivery-fee{
+    
+        margin-top: 30px;
+       
+    }
+
+.delivery,.fee{
+
+
+        display: inline-block;
+
+    }
+
+.delivery{
+
+        margin-left: 200px;
+
+    }
+
+.fee{
+
+        margin-left: 711px;
+
+    }
+
+
+.total{
+    
+        font-family: "Inter", sans-serif;
+        color: #74A9DB;
+        margin-top: 50px;
+
+    }
+
+.text-total, .price-total{
+
+        display: inline-block;
+
+    }
+
+.text-total{
+
+        margin-left: 200px;
+
+    }
+
+.price-total{
+
+        margin-left: 765px;
+
+    }
+
+
+.button-whatsapp{
 
         text-decoration: none;
         border-radius: 8px;
@@ -366,7 +487,8 @@ header {
         font-weight: 600;
         background-color: #74A9DB;
         margin-top: 50px;
-        margin-left: 600px;
+        margin-left: 500px;
+       
            
     }
 
@@ -461,8 +583,8 @@ footer{
     height: 2px;
     background-color: #74A9DB;
     margin-top: 10px;
-    margin-left: 550px;
-    margin-right: 530px; 
+    margin-left: 440px;
+    margin-right: 410px; 
 
     }
 
