@@ -98,14 +98,14 @@ header {
     
     
     margin-top: 200px;
-    margin-left: 250px;
+    margin-left: 220px;
     margin-right: 1000px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     position: relative;
-    cursor: pointer;
     
-}
+    
+   }
 
 .button-back::before {
     
@@ -118,7 +118,7 @@ header {
     border-style: solid; 
     border-color: transparent #74A9DB transparent transparent; 
     
-    }
+   }
    
 
 .title{
@@ -128,12 +128,12 @@ header {
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     margin-top: 10px;
-    margin-left: 550px;
+    margin-left: 540px;
     margin-right: 100px;
 
    }
 
-   .order1{
+.order1{
    
     margin-top: -300px;
     font-family: "Inter", sans-serif;
@@ -142,7 +142,7 @@ header {
 
 
 
- .dish1-title{
+.dish1-title{
         
     
     text-align: center;
