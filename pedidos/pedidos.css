@@ -27,8 +27,6 @@ body {
     min-height: 100vh; /* Para garantir que a altura do contêiner seja igual à altura da janela de visualização */
 }
 
-
-
 header {
     
     background-color: #ffffff;
@@ -86,17 +84,10 @@ header {
 
 }
 
-
-
 /*----------------------------------------------------------BODY----------------------------------------*/
 
 
-
-
-
 .button-back {
-    
-    
     margin-top: 200px;
     margin-left: 250px;
     margin-right: 1000px;
@@ -366,19 +357,12 @@ header {
         font-weight: 600;
         background-color: #74A9DB;
         margin-top: 50px;
-        margin-left: 600px;
-           
+        margin-left: 600px;           
     }
 
- 
- 
    /*-----------------------------------------------------FOOTER-------------------------------------------*/
 
-
-
-
 footer{
-    
     background-color: white;
     padding: 10px 0;
     position: relative;
@@ -388,10 +372,8 @@ footer{
     text-align: center;
     border-top: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    margin-top: 100px;
-    
+    margin-top: 80px;
    }
-
    
 .footer-container {
     

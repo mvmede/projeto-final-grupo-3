@@ -66,6 +66,10 @@ header {
 
 /*----------------------------------------------------------BODY----------------------------------------------------------*/
 
+.contato_1 {
+    margin-bottom: 30px;
+}
+
 /*----------------------------------------------------------CONTATOS--------------------------------------------------*/
 
 .titulo_contato {
@@ -75,6 +79,8 @@ header {
     font-size: 40px;
     font-weight: 900;
     text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
 
 }
 
@@ -144,12 +150,13 @@ section {
 
 /*----------------------------------------------------------SOBRE O PROJETO--------------------------------------------------*/
 .titulo_sobre_o_projeto {
-
     color: #74A9DB;
     font-family: "Inter";
     font-size: 32px;
     font-weight: 900;
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
 
 }
 
@@ -164,7 +171,7 @@ section {
     display: flex;
     margin-left: 400px;
     margin-right: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     justify-content: center;
     align-items: center;
     font-family: "Inter";
