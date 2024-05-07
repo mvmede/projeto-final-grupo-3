@@ -8,10 +8,6 @@
 
 }
 
-a {
-    text-decoration: none;
-    color: #74A9DB;
-    }
 
 header {
     background-color: #ffffff;
@@ -76,11 +72,10 @@ h3 {
 }
 
 .banner1-contenedor {
-
     margin-top: 150px;
+    margin-bottom: 40px;
     max-width: 100%;
     overflow: hidden;
-
 }
 
 .banner1-contenedor img {
@@ -113,12 +108,14 @@ h3 {
 
 
 .comidas-container {
-
     flex-wrap: wrap;
     text-align: center;
     display: flex;
     justify-content: center;
+}
 
+.comidas-container div:hover {
+    transform: scale(1.1);
 }
 
 
@@ -183,6 +180,28 @@ h3 {
 
 }
 
+#destaques {
+    margin-top: 40px;
+}
+
+.opcao_1 img{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.opcao_2 img{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
 .destaquescontainer {
     flex-wrap: wrap;
     text-align: center;
@@ -204,6 +223,7 @@ text-align: center;
 }
 
 .descripciondestaque {
+    width: 500px;
     font-family: "Inter";
     font-size: 16px;
     font-weight: normal;
@@ -240,6 +260,7 @@ text-align: center;
     height: auto; 
     display: block;
     max-width: 100%;
+    margin-top: 30px;
     overflow: hidden;
 
 }
