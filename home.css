@@ -111,12 +111,14 @@ h3 {
 
 
 .comidas-container {
-
     flex-wrap: wrap;
     text-align: center;
     display: flex;
     justify-content: center;
+}
 
+.comidas-container div:hover {
+    transform: scale(1.1);
 }
 
 
