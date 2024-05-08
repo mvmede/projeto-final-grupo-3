@@ -56,12 +56,36 @@ header {
     background-color: #74A9DB;
 }
 
-/*----------------------------------------------------------CONTENT----------------------------------------------------------*/
+/*----------------------------------------------------------BODY----------------------------------------------------------*/
+
 
 .Title_SAC {
     margin-top: 200px;
+    color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 250px;
 }
 
+.Subtitle_SAC {
+    color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.Text_SAC {
+    color: #858585;
+    font-family: "Inter", sans-serif;
+    font-size: 80%;
+    font-weight: 400;
+    text-align: normal;
+    margin-left: 0%;
+}
 
 /*----------------------------------------------------------FOOTER----------------------------------------------------------*/
 
