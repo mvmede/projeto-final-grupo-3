@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+}
+
+/*------------------------HEADER------------------------*/
+
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    gap: 10px;
+    border-bottom: 12px solid ;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu-header {
+    margin-top: 40px;
+}
+
+.menu-header ul li{
+    display: inline;
+    margin-right: 40px;
+
+}
+
+.menu-header ul li a {
+    color: #636363;
+    text-decoration: none;
+}
+
+.fazerpedidos {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+}
+
+.fazerpedidos a {
+    text-decoration: none;
+    background-color: #74A9DB;
+    color: #fff;
+}
+/*------------------------HEADER------------------------*/
+
+/*------------------------Banner Países------------------------*/
+.banner-paises img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+/*------------------------Banner Países------------------------*/
+
+/*------------------------Bucas por Países------------------------*/
+.cardapio_paises {
+    margin-bottom: 30px;
+}
+
+.titulocardapio {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 900;
+    color: #74A9DB;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.paises-container {
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.paises-container p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #959ca3;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.paises-container p a {
+    text-decoration: none;
+    color: inherit;
+}
+/*------------------------Bucas por Países------------------------*/
+
+/*------------------------Comidas Container------------------------*/
+.container-comidas {
+    display: flex;
+    width: 1100px;
+    gap: 83px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: "inter";
+}
+
+.comida {
+    width: 420px;
+    height: 559px;
+    text-align: center;
+}
+
+.titulocomida {
+    text-align: center;
+    color: #262626;
+    font-size: 39px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.titulocomida a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.valor {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.AdicionarPedido {
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 10px 10px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    background-color: #74A9DB;
+}
+
+.comida button a {
+    text-decoration: none;
+    background-color: #74A9DB;
+    color: #fff;
+}
+/*------------------------Comidas Container------------------------*/
