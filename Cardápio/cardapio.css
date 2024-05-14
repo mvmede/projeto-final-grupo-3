@@ -1,40 +1,29 @@
-/*----------------------------------------------------------HEADER----------------------------------------------------------*/
-
 * {
-    background-color: #ffffff;
     margin: 0;
-    padding: 0;
 }
 
-body {
-    padding-top: 100px;
-}
-
-header {
-    background-color: #ffffff;
-    color:#74A9DB;
-    padding: 10px 20px;
-    border-bottom: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
+/*------------------------HEADER------------------------*/
 
 .header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    gap: 10px;
+    border-bottom: 12px solid ;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
-.menu-header ul li {
-    display: inline-block;
+.menu-header {
+    margin-top: 40px;
+}
+
+.menu-header ul li{
+    display: inline;
     margin-right: 40px;
+
 }
 
 .menu-header ul li a {
@@ -49,27 +38,30 @@ header {
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 8px 8px ;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 8px 32px;
     font-weight: 600;
     background-color: #74A9DB;
 }
 
-/*----------------------------------------------------------BODY----------------------------------------------------------*/
-
-.banner1-contenedor {
-    margin-top: 40px;
-    max-width: 100%;
-    overflow: hidden;
-    margin-bottom: 40px;
+.fazerpedidos a {
+    text-decoration: none;
+    background-color: #74A9DB;
+    color: #fff;
 }
+/*------------------------HEADER------------------------*/
 
-.banner1-contenedor img {
-    width: 100%; 
-    position: center;
-    height: auto; 
+/*------------------------Banner Países------------------------*/
+.banner-paises img{
     display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+/*------------------------Banner Países------------------------*/
+
+/*------------------------Bucas por Países------------------------*/
+.cardapio_paises {
+    margin-bottom: 30px;
 }
 
 .titulocardapio {
@@ -78,18 +70,18 @@ header {
     font-weight: 900;
     color: #74A9DB;
     text-align: center;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
-.comidas-container {
+.paises-container {
     flex-wrap: wrap;
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
-.comidas-container p {
+.paises-container p {
     font-family: "Inter";
     font-size: 20px;
     font-weight: bolder;
@@ -99,29 +91,37 @@ header {
     padding-left: 30px;
 }
 
-.comidas-container p a {
-    text-decoration: none; /* Remover sublinhado */
-    color: inherit; /* Herdar a cor do texto */
+.paises-container p a {
+    text-decoration: none;
+    color: inherit;
 }
+/*------------------------Bucas por Países------------------------*/
 
-/*!----------------------------------------CONTAINER-COMIDAS----------------------------------------*/
+/*------------------------Comidas Container------------------------*/
+
 .container-comidas {
     display: flex;
-    width: 1100px;
-    gap: 83px;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
     font-family: "inter";
 }
 
 .comida {
-    width: 420px;
-    height: 559px;
+    width: calc(50% - 20px);
+    max-width: 420px;
     text-align: center;
+    margin: 20px 10px;
 }
+
+@media screen and (max-width: 1100px) {
+    .container-comidas .comida {
+        width: 100%; 
+        margin: 20px auto; 
+    }
+}
+
 
 .titulocomida {
     text-align: center;
@@ -161,50 +161,37 @@ header {
     background-color: #74A9DB;
     color: #fff;
 }
-/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
+/*------------------------Comidas Container------------------------*/
 
-footer {
-    margin-top: 19px;
-    background-color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-}
+/*------------------------Footer------------------------*/
 
 .footer-container {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    border-top: 12px solid ;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
 }
 
-.menufooter ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.menufooter{
+    margin-top: 50px;
 }
 
-.menufooter li {
-    display: inline-block;
-    margin-right: 40px;
-    font-size: 14px;
+.menufooter ul li{
+    display: inline;
 }
 
 .menufooter ul li a {
     color: #636363;
     text-decoration: none;
-}
-
-.menufooter li:last-child {
-    margin-right: 0;
+    margin-right: 40px;
 }
 
 .social-icons {
-    margin-left: 20px;
+    margin-top: 35px;
     display: flex;
 }
 
@@ -212,17 +199,10 @@ footer {
     margin-left: 10px;
 }
 
-.social-icons img {
-    display: flex;
-}
-
 .creditos {
-    margin-top: 20px;
+    text-align: center;
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    margin-bottom: 10px;
 }
-
-.logo-footer {
-    margin-right: 50px;
-}
+/*------------------------Footer------------------------*/

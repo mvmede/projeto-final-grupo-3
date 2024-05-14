@@ -87,9 +87,11 @@ header {
 /*----------------------------------------------------------BODY----------------------------------------*/
 
 
+
+
 .button-back {
     margin-top: 200px;
-    margin-left: 250px;
+    margin-left: 210px;
     margin-right: 1000px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
@@ -119,7 +121,7 @@ header {
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     margin-top: 10px;
-    margin-left: 550px;
+    margin-left: 530px;
     margin-right: 100px;
 
    }
@@ -138,7 +140,7 @@ header {
     
     text-align: center;
     position: absolute;
-    margin-left: 230px;
+    margin-left: 180px;
     margin-top: 400px;
     margin-right:10px;
     color: #74A9DB; 
@@ -151,7 +153,7 @@ header {
         
     font-size: 10px; 
     color: black;
-    margin-left: 210px;
+    margin-left: 180px;
     margin-top: 450px;
     
    
@@ -162,7 +164,7 @@ header {
 .button-remov1{
     
     
-    margin-left: 500px;
+    margin-left: 485px;
     margin-top: -60px;
     text-decoration: underline;
     cursor: pointer;
@@ -171,53 +173,65 @@ header {
     
     }    
 
-
-
-.counter1 {
-   
-   display: flex;
-   align-items: center;
-   position: absolute;
-   margin-left: 600px;
-   margin-top: -45px;
-   background-color: #74A9DB;
-   border-radius: 8px;
+    #counter1 {
+        
+        
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-left: 585px;
+        margin-top: -45px;
+        background-color: #74A9DB;
+        border-radius: 8px;
+    }
     
+    #counter1 div {
+        display: flex;
+        align-items: center;
+    }
+    
+    #value1 {
+        font-size: 1rem;   
+        min-width: 4rem;
+        text-align: center;
+        border-top: groove;
+        border-bottom: groove;
+        border-color: #74A9DB;
+    }
+    
+    button {
+        border: none;
+        font-weight: 500;
+        cursor: pointer;
+        transition: opacity .3s;
+    }
+    
+    .count-button {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        background-color: #74A9DB;
+    }
+    
+    #minus1 {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    #plus1 {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
-
-.value{
-    
-    width: 50px;
-    text-align: center;
-    border:none;
-    padding: 6px;
-    
-    }
-
-.minus, .plus{
-    
-    width: 30px;
-    height: 30px;
-    background-color: #74A9DB;
-    border: none;
-    cursor: pointer;
-    border-radius: 8px;
-
-    }
 
   
-.plus:hover, .minus:hover{
-    
-    background-color: #74A9DB;
-    
-    }
 
 
 .price1{
     
     margin-top: -40px;
-    margin-left: 800px;
+    margin-left: 785px;
     margin-bottom: 500px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
@@ -227,7 +241,7 @@ header {
 .img-dish1{
 
     margin-top: -570px;
-    margin-left: 970px;
+    margin-left: 953px;
     margin-bottom: 10px;
     
 
@@ -235,11 +249,11 @@ header {
 
 .center-line{
     
-    height: 2px;
+    height: 1px;
     background-color: #74A9DB;
     margin-top: 60px;
-    margin-left: 200px;
-    margin-right: 180px; 
+    margin-left: 180px;
+    margin-right: 155px; 
     margin-bottom: 0px;
     
     }
@@ -247,6 +261,7 @@ header {
 .order2{
 
     font-family: "Inter", sans-serif;
+    
 
     }
 
@@ -277,7 +292,7 @@ header {
 .button-remov2 {
 
     margin-top: -35px;
-    margin-left: 500px;
+    margin-left: 506px;
     text-decoration: underline;
     cursor: pointer;
     color: black;
@@ -286,22 +301,63 @@ header {
 
 }
 
-.counter2{
-   
-   display: flex;
-   align-items: center;
-   position: absolute;
-   margin-top: -40px;
-   margin-left: 600px;
-   background-color: #74A9DB;
-   border-radius: 8px;
-  
-    }
+#counter2 {
+        
+        
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 605px;
+    margin-top: -45px;
+    background-color: #74A9DB;
+    border-radius: 8px;
+}
+
+#counter2 div {
+    display: flex;
+    align-items: center;
+}
+
+#value2 {
+    font-size: 1rem;   
+    min-width: 4rem;
+    text-align: center;
+    border-top: groove;
+    border-bottom: groove;
+    border-color: #74A9DB;
+}
+
+button {
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.count-button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: #74A9DB;
+}
+
+#minus2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#plus2 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
 
 .price2{
     
     margin-top: -35px;
-    margin-left: 800px;
+    margin-left: 805px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
         
@@ -311,16 +367,17 @@ header {
 
     margin-top: -70px;
     margin-left: 970px;
+    margin-right: 175px;
         
     
     }
 
 .final-line{
 
-    height: 2px;
+    height: 1px;
     background-color: #74A9DB;
     margin-left: 200px;
-    margin-right: 180px; 
+    margin-right: 170px; 
     margin-top: 60px;
 
     }
@@ -330,7 +387,7 @@ header {
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left:20px;
 
     }
 
@@ -339,7 +396,7 @@ header {
         color: #74A9DB;
         font-family: "Inter", sans-serif;
         margin-top: -20px;
-        margin-left: 1050px;
+        margin-left: 865px;
 
     }
 
@@ -357,7 +414,7 @@ header {
         font-weight: 600;
         background-color: #74A9DB;
         margin-top: 50px;
-        margin-left: 600px;           
+        margin-left: 430px;           
     }
 
    /*-----------------------------------------------------FOOTER-------------------------------------------*/
