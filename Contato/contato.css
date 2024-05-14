@@ -85,44 +85,44 @@ header {
 }
 
 .imagemperfil {
-
-    padding-right: 34px;
-
+    padding-right: 18px;
 }
 
 .perfil1 {
-
     display: inline-block;
     align-items: top;
     align-items: center;
-    padding-right: 40px;
     font-family: "Inter";
+    padding-right: 32px;
 }
 
 .perfil2 {
-
     display: inline-block;
     align-items: top;
     align-items: center;
-
     font-family: "Inter";
+    padding-right: 32px;
 }
 
 .perfil3 {
-
     display: inline-block;
     align-items: top;
     align-items: center;
-    padding-right: 40px;
     font-family: "Inter";
 }
 
 .perfil4 {
-
     display: inline-block;
     align-items: top;
     align-items: center;
+    font-family: "Inter";
+    padding-right: 32px;
+}
 
+.perfil5 {
+    display: inline-block;
+    align-items: top;
+    align-items: center;
     font-family: "Inter";
 }
 
@@ -133,7 +133,6 @@ header {
 }
 
 .email {
-
     font-size: 18px;
 }
 

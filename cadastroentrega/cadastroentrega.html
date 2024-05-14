@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +27,6 @@
                     <li><a href="../Cardápio/cardapio.html">Cardápio</a></li>
                     <li><a href="../Sobre nós/sobrenos.html">Sobre nós</a></li>
                     <li><a href="../Contato/contato.html">Contato</a></li>
-
                     <button class="fazerpedidos">
                         <a href="../Fazer pedido/fazerpedidos.html"
                             style="text-decoration: none; color: #fff; background-color: #74A9DB;"> Pedidos </a>
@@ -35,7 +35,7 @@
             </div>
         </div>
     </header>
-    <!----------------------------------------BODY---------------------------------------->
+    <!-------------------------------------------BODY------------------------------------------>
     <div class="Back_Button">
         <a href="javascript:history.go(-1)">
             <h3>Voltar</h3>
@@ -45,54 +45,49 @@
     <p class="title-page">MEUS DADOS</p>
     </br>
     <div class="input-container">
-        <div class="text-name">
+        <div class="input-text">
             <p>Nome</p>
-            <input class="input-name">
+            <input id="name" type="text" name="Nome" placeholder="Nome">
         </div>
-        </br>
-        <div class="text-email">
+        <div class="input-text">
             <p>E-mail (Opcional)</p>
-            <input class="input-email">
+            <input id="email" type="text" name="Email" placeholder="E-mail">
         </div>
-        </br>
-        <div class="text-cellphone">
+        <div class="input-text">
             <p>Celular</p>
-            <input class="input-cellphone">
+            <input id="cellphone" type="text" name="Celular" placeholder="Celular">
         </div>
     </div>
-    <p class="title-page2">DADOS DE ENTREGA</p>
+    <p class="title-page">DADOS DE ENTREGA</p>
     </br>
     <div class="input-container">
-        <div class="text-cep">
+        <div class="input-text">
             <p>CEP</p>
-            <input class="input-cep">
+            <input id="postalcode" type="text" name="CEP" placeholder="CEP">
         </div>
-        </br>
-        <div class="text-rua">
+        <div class="input-text">
             <p>Rua</p>
-            <input class="input-rua">
+            <input id="road" type="text" name="Rua" placeholder="Rua">
         </div>
-        </br>
-        <div class="text-numero">
+        <div class="input-text">
             <p>Número</p>
-            <input class="input-numero">
+            <input id="number" type="text" name="Número" placeholder="N°">
         </div>
-        <div class="text-bairro">
+        <div class="input-text">
             <p>Bairro</p>
-            <input class="input-bairro">
+            <input id="area" type="text" name="Bairro" placeholder="Bairro">
         </div>
-        </br>
-        <div class="text-cidade">
+        <div class="input-text">
             <p>Cidade</p>
-            <input class="input-cidade">
+            <input id="city" type="text" name="Cidade" placeholder="Cidade">
         </div>
     </div>
     <div class="button-container">
         <button class="advance">
-            <a href="#" style="text-decoration: none; color: #fff; background-color: #74A9DB;"> Avançar </a>
+            <a href="../pedidos finalizar/pedidos finalizar.html" style="text-decoration: none; color: #fff; background-color: #74A9DB;"> Avançar </a>
         </button>
     </div>
-    <!----------------------------------------CONTAINER-FOOTER---------------------------------------->
+    <!-------------------------------------------CONTAINER-FOOTER------------------------------------------>
     <footer>
         <div class="footer-container">
             <div class="logo-footer">
@@ -117,4 +112,5 @@
         </div>
     </footer>
 </body>
+
 </html>
