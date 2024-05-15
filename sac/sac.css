@@ -87,6 +87,15 @@ header {
     margin-left: 0%;
 }
 
+.container {
+    display: grid;
+    place-items: center; 
+    width: 400px; 
+    height: 500px; 
+    background-color: #74A9DB;
+    border-radius: 10px; 
+}
+
 /*----------------------------------------------------------FOOTER----------------------------------------------------------*/
 
 footer {
