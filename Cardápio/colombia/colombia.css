@@ -166,22 +166,28 @@ a {
 /*------------------------Comidas Container------------------------*/
 
 /*------------------------Footer------------------------*/
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-family: "Inter", sans-serif;
-    border-top: 12px solid ;
+    border-top: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
     gap: 10px;
     padding-top: 10px;
 }
 
-.menufooter{
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.menufooter {
     margin-top: 50px;
 }
 
-.menufooter ul li{
+.menufooter ul li {
     display: inline;
 }
 
@@ -204,6 +210,8 @@ a {
     text-align: center;
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    margin-bottom: 10px;
+    padding-bottom: 30px;
+
 }
+
 /*------------------------Footer------------------------*/

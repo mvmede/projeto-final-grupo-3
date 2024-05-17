@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #ffffff;
-    color:#74A9DB;
+    color: #74A9DB;
     padding: 10px 20px;
     border-bottom: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
@@ -49,7 +49,7 @@ header {
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 8px 8px ;
+    padding: 8px 8px;
     padding-left: 32px;
     padding-right: 32px;
     font-weight: 600;
@@ -94,94 +94,84 @@ header {
 }
 
 .child-container {
-    display: flex; 
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 500px;
     height: 1000px;
     background-color: #a4cff5;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
 .div-1 {
-    display: flex; 
+    display: flex;
     justify-content: flex-start;
     align-items: stretch;
     width: 600px;
     height: 180px;
     margin-left: 95px;
-    color: #c4d6e7;           
-    font-weight: bold;       
-    font-size: 50px; 
+    color: #c4d6e7;
+    font-weight: bold;
+    font-size: 50px;
     background-color: #3873a6;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
 .text-1 {
-    display: flex; 
+    display: flex;
     align-items: center;
     margin-left: 95px;
-    color: #c4d6e7;           
-    font-weight: bold;       
-    font-size: 50px; 
+    color: #c4d6e7;
+    font-weight: bold;
+    font-size: 50px;
     background-color: transparent;
-    
+
 }
 
 .child-container {
-    display: flex; 
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 800px;
     height: 600px;
     background-color: #a4cff5;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
-/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
-
-footer {
-    margin-top: 19px;
-    background-color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-}
+/*------------------------Footer------------------------*/
 
 .footer-container {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
 }
 
-.menufooter ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
-.menufooter li {
-    display: inline-block;
-    margin-right: 40px;
-    font-size: 14px;
+.menufooter {
+    margin-top: 50px;
+}
+
+.menufooter ul li {
+    display: inline;
 }
 
 .menufooter ul li a {
     color: #636363;
     text-decoration: none;
-}
-
-.menufooter li:last-child {
-    margin-right: 0;
+    margin-right: 40px;
 }
 
 .social-icons {
-    margin-left: 20px;
+    margin-top: 35px;
     display: flex;
 }
 
@@ -189,17 +179,12 @@ footer {
     margin-left: 10px;
 }
 
-.social-icons img {
-    display: flex;
-}
-
 .creditos {
-    margin-top: 20px;
+    text-align: center;
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    padding-bottom: 30px;
+
 }
 
-.logo-footer {
-    margin-right: 50px;
-}
+/*------------------------Footer------------------------*/
