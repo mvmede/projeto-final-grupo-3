@@ -90,10 +90,7 @@ header {
 
 .main-container {
     display: flex;
-    width: 1100px;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
+    gap: 70px;
 }
 
 .child-container {
