@@ -89,6 +89,7 @@ header {
 
 .main-container {
     display: flex;
+    width: 1440px;
     gap: 70px;
 }
 
