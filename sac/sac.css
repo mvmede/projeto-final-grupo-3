@@ -61,12 +61,13 @@ header {
 
 .title-SAC {
     margin-top: 100px;
+    width: 900px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: bolder;
     text-align: left;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .subtitle-SAC {
@@ -81,7 +82,7 @@ header {
 .text-SAC {
     color: black;
     font-family: "Inter", sans-serif;
-    font-size: 100%;
+    font-size: 16px;
     font-weight: 400px;
     text-align: normal;
     margin-left: 0%;
@@ -89,26 +90,36 @@ header {
 
 .main-container {
     display: flex;
-    gap: 70px;
+    width: 1100px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .child-container {
     display: flex; 
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    width: 500px;
+    width: 350px;
     height: 1000px;
     background-color: #a4cff5;
     border-radius: 20px; 
 }
+.div0 {
+    background-color: transparent;
+    color: #3873a6;
+    font-family: "Inter";
+    margin: 50px;
+
+}
 
 .div-1 {
     display: flex; 
-    justify-content: flex-start;
-    align-items: stretch;
-    width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
     height: 180px;
-    margin-left: 95px;
     color: #c4d6e7;           
     font-weight: bold;       
     font-size: 50px; 
@@ -116,15 +127,28 @@ header {
     border-radius: 20px; 
 }
 
+.atendimento-title {
+    background-color: transparent; 
+    font-weight: bolder;
+}
+
 .text-1 {
     display: flex; 
     align-items: center;
-    margin-left: 95px;
+    margin-left: 25px;
     color: #c4d6e7;           
     font-weight: bold;       
-    font-size: 50px; 
+    font-size: 30px; 
     background-color: transparent;
-    
+}
+
+.text-2 {
+    font-family: "Inter";
+    font-size: 16px;
+    color: #a4cff5;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
 }
 
 .child-container {
