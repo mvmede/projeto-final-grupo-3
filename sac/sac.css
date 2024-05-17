@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #ffffff;
-    color: #74A9DB;
+    color:#74A9DB;
     padding: 10px 20px;
     border-bottom: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
@@ -49,7 +49,7 @@ header {
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 8px 8px;
+    padding: 8px 8px ;
     padding-left: 32px;
     padding-right: 32px;
     font-weight: 600;
@@ -90,18 +90,25 @@ header {
 
 .main-container {
     display: flex;
-    gap: 70px;
+    width: 1100px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .child-container {
     display: flex; 
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    width: 350px;
-    height: 1000px;
+    justify-content: flex-start;
+    width: 800px;
+    height: 503px;
     background-color: #a4cff5;
-    border-radius: 20px;
+    border-radius: 20px; 
+    margin-bottom: 40px;
+    gap: 20px;
 }
+
 .div0 {
     background-color: transparent;
     color: #3873a6;
@@ -112,16 +119,44 @@ header {
 
 .div-1 {
     display: flex; 
-    justify-content: flex-start;
-    align-items: stretch;
-    width: 600px;
-    height: 180px;
-    margin-left: 95px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
     color: #c4d6e7;           
     font-weight: bold;       
     font-size: 50px; 
     background-color: #3873a6;
-    border-radius: 20px;
+    border-radius: 20px; 
+}
+
+.div-2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    color: #c4d6e7;           
+    font-weight: bold;       
+    font-size: 50px; 
+    background-color: #3873a6;
+    border-radius: 20px; 
+}
+
+.div-3 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 64px;
+    color: #c4d6e7;           
+    font-weight: bold;       
+    font-size: 50px; 
+    background-color: #00923F;
+    border-radius: 20px; 
 }
 
 .atendimento-title {
@@ -130,24 +165,32 @@ header {
 }
 
 .text-1 {
-    display: flex;
+    display: flex; 
     align-items: center;
-    margin-left: 95px;
+    margin-left: 25px;
     color: #c4d6e7;           
     font-weight: bold;       
-    font-size: 50px; 
+    font-size: 30px; 
     background-color: transparent;
-    
 }
 
-.child-container {
-    display: flex;
-    justify-content: flex-start;
+.text-2 {
+    font-family: "Inter";
+    font-size: 16px;
+    color: #a4cff5;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.text-3 {
+    display: flex; 
     align-items: center;
-    width: 800px;
-    height: 600px;
-    background-color: #a4cff5;
-    border-radius: 20px;
+    margin-left: 25px;
+    color: #c4d6e7;           
+    font-weight: 300;     
+    font-size: 16px; 
+    background-color: transparent;
 }
 
 /*------------------------Footer------------------------*/
