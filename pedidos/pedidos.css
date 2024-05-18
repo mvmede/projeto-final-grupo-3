@@ -217,13 +217,15 @@ button {
 }
 
 #minus1 {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
 }
 
 #plus1 {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+   
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 
@@ -345,13 +347,16 @@ button {
 }
 
 #minus2 {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
 }
 
 #plus2 {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+   
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 
 
 }
