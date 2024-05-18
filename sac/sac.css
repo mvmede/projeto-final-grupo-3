@@ -166,11 +166,27 @@ header {
 }
 
 .atendimento-title {
-    padding-left: 50px;
+    text-align: center;
     background-color: transparent; 
     font-weight: bolder;
 }
 
+.fale-title {
+    text-align: center;
+    background-color: transparent; 
+    font-weight: bolder;
+
+}
+
+.text-0 {
+    font-family: "Inter";
+    text-align: center;
+    font-size: 16px;
+    color: #3873a6;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
+}
 .text-1 {
     display: flex; 
     align-items: center;
@@ -184,7 +200,7 @@ header {
 .text-2 {
     font-family: "Inter";
     font-size: 16px;
-    color: #a4cff5;
+    color: #c4d6e7;           
     background-color: transparent;
     margin-top: 20px;
     font-weight: 400;
@@ -200,6 +216,29 @@ header {
     background-color: transparent;
 }
 
+.text-4 {
+    font-family: "Inter";
+    text-align: center;
+    font-size: 16px;
+    color: #3873a6;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.div-4 {
+    display: flex; 
+    margin-top: 40px;
+   margin-left: 20px;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;          
+    font-weight: bold;       
+    font-size: 50px; 
+    background-color: #00923F;
+    border-radius: 20px; 
+
+}
 /*------------------------Footer------------------------*/
 
 .footer-container {
