@@ -142,7 +142,10 @@ a {
     margin-bottom: 50px;
 }
 
-.advance /*Botão de Avançar*/ {
+.advance
+
+/*Botão de Avançar*/
+    {
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
@@ -156,48 +159,40 @@ a {
     background-color: #74A9DB;
 }
 
-/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
-
-footer {
-    background-color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-}
+/*------------------------Footer------------------------*/
 
 .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
 }
 
-.menufooter ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
-.menufooter li {
-    display: inline-block;
-    margin-right: 40px;
-    font-size: 14px;
+.menufooter {
+    margin-top: 50px;
+}
+
+.menufooter ul li {
+    display: inline;
 }
 
 .menufooter ul li a {
     color: #636363;
     text-decoration: none;
-}
-
-.menufooter li:last-child {
-    margin-right: 0;
+    margin-right: 40px;
 }
 
 .social-icons {
-    margin-left: 20px;
+    margin-top: 35px;
     display: flex;
 }
 
@@ -205,17 +200,12 @@ footer {
     margin-left: 10px;
 }
 
-.social-icons img {
-    display: flex;
-}
-
 .creditos {
-    margin-top: 20px;
+    text-align: center;
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    padding-bottom: 30px;
+
 }
 
-.logo-footer {
-    margin-right: 50px;
-}
+/*------------------------Footer------------------------*/

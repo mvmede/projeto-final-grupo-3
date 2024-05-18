@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +15,10 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="container">
-<!--------------------------------------HEADER---------------------------------------------->
+<!--------------------------------------HEADER-------------------------------------->
     <header>
         <div class="header-container">
             <div class="logo-footer">
@@ -37,91 +39,70 @@
          </div>
         </header>
 <!----------------------------------------------body------------------------------------------------------------------------>
-<div class="inside">
-    <div class="up">
-        <div class="button-back">
-        <h3>Voltar</h3>
-        </div>
+    <div class="inside">
+        <div class="up">
+            <div class="button-back">        
+            <a href="javascript:history.go(-1)"><h3>Voltar</h3>
+            </a>
+            </div>
         <div class="title">
-            <h1>MEUS PEDIDOS</h1>
+        <h1>MEUS PEDIDOS</h1>
         </div>
     </div>
-<!----------------------------------------encerra up-------------------------------------------------->
-<div class="order1">
-    <div class="dish1">
-    <p class="dish1-title">Ceviche</p>
-        <br>
-        <p class="desc1">                
-            Ceviche é um prato tradicional peruano</br> feito de peixe cru marinado </br> em suco de limão
-            e temperado com outros </br>ingredientes que </br>variam de acordo com a região.
-        </p>
+    <!----------------------------------------encerra up-------------------------------------------------->
+    <div class="order1">  
+        <div class="dish1">
+        <p class="dish1-title">Ceviche</p>
+            <br>
+            <p class="desc1">
+                Ceviche é um prato tradicional peruano</br> feito de peixe cru marinado </br> em suco de limão
+                e temperado com outros </br>ingredientes que </br>variam de acordo com a região.
+            </p>
+        </div>
+    <div class="button-remov1">
+        <h5>Remover</h5>
+    </div><br>
+    <div class="counter1">
+        <button class="minus">-</button>
+        <input type="number" class="value" value="1">
+        <button class="plus">+</button>
     </div>
-<div class="button-remov1">
-    <h5>Remover</h5>
-</div>
-    <br>
-    <div id="counter1">
+    <div class="price1">  
+        <h4>R$ 50,00</h4>
+    </div>
+    <div class="img-dish1">
+        <img src="Imagens/ceviche.png" alt="ceviche">
+    </div>
 
-    <div>
-        <button id="minus1"  class="count-button">
-        -
-        </button>
-        <span id="value1">
-        0
-        </span>
-        
-        <button id="plus1"  class="count-button">
-        +
-        </button>
-        
+    <div class="center-line"></div>
+    </div>  
+    <!------------------------------encerra pedido1------------------------------------------->        
+    <div class="order2">            
+        <div class="dish2">        
+            <p class="dish2-title">Queso Helado</p>      
+         <br>      
+         <p class="desc2">        
+            O queijo peruano congelado é uma sobremesa</br> tipo sorvete feita com leite integral
+         , leite evaporado,</br> canela, cravo, coco ralado, açúcar e gema de ovo.            
+         </p>    
         </div>
-</div>
-</div>
-<div class="price1">
-    <h4>R$ 50,00</h4>
-</div>
-<div class="img-dish1">
-    <img src="Imagens/ceviche.png" alt="ceviche">
-</div>
-<div class="center-line"></div>
-</div>  
-<!------------------------------encerra pedido1------------------------------------------->
-<div class="order2">
-    <div class="dish2">
-        <p class="dish2-title">Queso Helado</p>
-     <br>
-     <p class="desc2">
-        O queijo peruano congelado é uma sobremesa</br> tipo sorvete feita com leite integral
-     , leite evaporado,</br> canela, cravo, coco ralado, açúcar e gema de ovo.
-     </p>
+    <div class="button-remov2">        
+        <h5>Remover</h5>    
+    </div>     
+    <br>
+    <div class="counter2">        
+        <button class="minus">-</button>
+        <input type="number" class="value" value="1">
+        <button class="plus">+</button>
     </div>
-<div class="button-remov2">
-    <h5>Remover</h5>
-</div>
-<br>
-<div id="counter2">
-    <div>
-        <button id="minus2"  class="count-button">
-        -
-        </button>
-        <span id="value2">
-        0
-        </span>
-        
-        <button id="plus2"  class="count-button">
-        +
-        </button>
-        
-        </div>
-</div>
-<div class="price2">
-    <h4>R$ 20,00</h4>
-</div>
-<div class="img-dish2">
-    <img src="Imagens/queso helado.png" alt="queso helado">
-</div>
-<div class="final-line"></div>
-</div>   
+    <div class="price2">
+        <h4>R$ 20,00</h4>
+    </div>
+    <div class="img-dish2">
+        <img src="Imagens/queso helado.png" alt="queso helado">
+    </div>
+    <div class="final-line"></div>
+    </div>   
 <!--------------------------------encerra pedido2--------------------------------------->
     <div class="down">
         <button class="add-order">
@@ -201,6 +182,5 @@
                 Imagens meramente ilustrativas. A Divisa - desenvolvido por Gustavo, Johan, Lucas & Weder
                 </div>
         </footer></br>
-        <script src="js/scipt.js"></script>
     </body>
 </html>

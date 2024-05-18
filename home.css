@@ -11,7 +11,7 @@
 
 header {
     background-color: #ffffff;
-    color:#74A9DB;
+    color: #74A9DB;
     padding: 10px 20px;
     border-bottom: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
@@ -79,9 +79,9 @@ h3 {
 }
 
 .banner1-contenedor img {
-    width: 100%; 
-    position: center    ;
-    height: auto; 
+    width: 100%;
+    position: center;
+    height: auto;
     display: block;
 
 }
@@ -143,7 +143,7 @@ h3 {
 
 }
 
-.comidachilena{
+.comidachilena {
 
     font-family: "Inter";
     font-size: 20px;
@@ -184,7 +184,7 @@ h3 {
     margin-top: 40px;
 }
 
-.opcao_1 img{
+.opcao_1 img {
     width: 550px;
     height: 400px;
     display: flex;
@@ -193,7 +193,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-.opcao_2 img{
+.opcao_2 img {
     width: 550px;
     height: 400px;
     display: flex;
@@ -209,17 +209,17 @@ h3 {
     justify-content: center;
 }
 
-.destaques{
+.destaques {
     margin-right: 30px;
 }
 
 .subtitulodestaque {
-font-family: "Inter";
-font-size: 20px;
-text-decoration: none; 
-font-weight: 900;
-color: #74A9DB;
-text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #74A9DB;
+    text-align: center;
 }
 
 .descripciondestaque {
@@ -227,12 +227,12 @@ text-align: center;
     font-family: "Inter";
     font-size: 16px;
     font-weight: normal;
-    text-decoration: none; 
+    text-decoration: none;
     color: #3f3f3f;
     text-align: center;
 }
 
-.conferircontainer{
+.conferircontainer {
     flex-wrap: wrap;
     text-align: center;
     display: flex;
@@ -256,8 +256,8 @@ text-align: center;
 
 
 .ultimobanner img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
     display: block;
     max-width: 100%;
     margin-top: 30px;
@@ -268,78 +268,53 @@ text-align: center;
 
 
 
-/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
-
-
-
-
-footer {
-    background-color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-}
+/*------------------------Footer------------------------*/
 
 .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
 }
 
-.menufooter ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
-.menufooter li {
-    display: inline-block;
-    margin-right: 40px;
-    font-size: 14px;
-
-
+.menufooter {
+    margin-top: 50px;
 }
 
+.menufooter ul li {
+    display: inline;
+}
 
 .menufooter ul li a {
-
     color: #636363;
     text-decoration: none;
-
-}
-
-.menufooter li:last-child {
-    margin-right: 0;
-    
+    margin-right: 40px;
 }
 
 .social-icons {
-    margin-left: 20px;
+    margin-top: 35px;
     display: flex;
-    /* Adiciona display flex para os ícones sociais */
 }
 
 .social-icons a {
     margin-left: 10px;
-    /* Ajusta a margem entre os ícones */
-}
-
-.social-icons img {
-    display: flex;
 }
 
 .creditos {
-    margin-top: 20px;
+    text-align: center;
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    padding-bottom: 30px;
+
 }
 
-.logo-footer {
-    margin-right: 50px;
-}
+/*------------------------Footer------------------------*/
