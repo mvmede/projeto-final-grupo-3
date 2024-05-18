@@ -14,6 +14,7 @@
         updateValue();
     };
 
+    
     plusButton.addEventListener('click', increment);
 
     plusButton.addEventListener('mousedown', () => {

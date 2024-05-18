@@ -76,7 +76,7 @@ header {
 
 .button-back {
     margin-top: 200px;
-    margin-left: 200px;
+    margin-left: 220px;
     margin-right: 1000px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
@@ -112,7 +112,7 @@ header {
 .dish1-title{
     text-align: center;
     position: absolute;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 400px;
     margin-right:10px;
     color: #74A9DB; 
@@ -122,12 +122,12 @@ header {
 .desc1 {
     font-size: 10px; 
     color: black;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 450px;
    }
 
 .button-remov1{
-    margin-left: 500px;
+    margin-left: 505px;
     margin-top: -60px;
     text-decoration: underline;
     cursor: pointer;
@@ -135,40 +135,61 @@ header {
     font-family: "Inter", sans-serif;
     }    
 
-.counter1 {
-   display: flex;
-   align-items: center;
-   position: absolute;
-   margin-left: 600px;
-   margin-top: -45px;
-   background-color: #74A9DB;
-   border-radius: 8px;
-    }
+    #counter1 {
 
-.value{
-    width: 50px;
-    text-align: center;
-    border:none;
-    padding: 6px;
-    }
 
-.minus, .plus{
-    width: 30px;
-    height: 30px;
-    background-color: #74A9DB;
-    border: none;
-    cursor: pointer;
-    border-radius: 8px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: -45px;
+        background-color: #74A9DB;
+        border-radius: 8px;
     }
-  
-.plus:hover, .minus:hover{    
-    background-color: #74A9DB;
+    
+    #counter1 div {
+        display: flex;
+        align-items: center;
     }
-
+    
+    #value1 {
+        font-size: 1rem;
+        min-width: 4rem;
+        text-align: center;
+        border-top: groove;
+        border-bottom: groove;
+        border-color: #74A9DB;
+    }
+    
+    button {
+        border: none;
+        font-weight: 500;
+        cursor: pointer;
+        transition: opacity .3s;
+    }
+    
+    .count-button {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        background-color: #74A9DB;
+    }
+    
+    #minus1 {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    #plus1 {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
 
 .price1{
     margin-top: -40px;
-    margin-left: 785px;
+    margin-left: 795px;
     margin-bottom: 500px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
@@ -176,7 +197,7 @@ header {
 
 .img-dish1{
     margin-top: -570px;
-    margin-left: 945px;
+    margin-left: 965px;
     margin-bottom: 10px;
     }
 
@@ -190,10 +211,10 @@ header {
     }
 
 .order2{
+    
     font-family: "Inter", sans-serif;
-    }
-
-
+    
+}
 
 .dish2-title {
     
@@ -205,7 +226,8 @@ header {
     margin-right: 50px;
     color: #74A9DB;
     font-size: 30px;
-   }
+   
+}
 
 .desc2 { 
     font-size: 10px; 
@@ -224,26 +246,67 @@ header {
     font-family: "Inter", sans-serif;
    }
 
-.counter2{
+   #counter2 {
+
+
+    border-radius: 8px;
     display: flex;
-    align-items: center;
+    align-items:center;
     position: absolute;
-    margin-left: 608px;
+    margin-left: 600px;
     margin-top: -45px;
     background-color: #74A9DB;
     border-radius: 8px;
 }
 
+#counter2 div {
+    display: flex;
+    align-items: center;
+}
+
+#value2 {
+    font-size: 1rem;
+    min-width: 4rem;
+    text-align: center;
+    border-top: groove;
+    border-bottom: groove;
+    border-color: #74A9DB;
+}
+
+button {
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.count-button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: #74A9DB;
+}
+
+#minus2 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#plus2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .price2{
     margin-top: -35px;
-    margin-left: 805px;
+    margin-left: 795px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     }
 
 .img-dish2{
     margin-top: -70px;
-    margin-left: 970px;
+    margin-left: 965px;
     }
 
 .final-line{
@@ -269,7 +332,7 @@ header {
     padding-left: 32px;
     padding-right: 32px;
     font-weight: 600;
-    margin-left: 400px;
+    margin-left: 535px;
     margin-bottom: 50px;
     animation-duration: 1s;
     animation-name: appear;
@@ -337,7 +400,7 @@ header {
         
         
     margin-top: -20px;
-    margin-left: 895px;
+    margin-left: 1045px;
 
 }
 
@@ -347,8 +410,7 @@ header {
 
 }
 
-.delivery,
-.fee {
+.delivery,.fee {
 
 
     display: inline-block;
@@ -357,7 +419,7 @@ header {
 
 .delivery {
 
-    margin-left: 50px;
+    margin-left: 200px;
 
 }
 
@@ -376,8 +438,7 @@ header {
 
 }
 
-.text-total,
-.price-total {
+.text-total,.price-total {
 
     display: inline-block;
 
@@ -385,7 +446,7 @@ header {
 
 .text-total {
 
-    margin-left: 50px;
+    margin-left:200px;
 
 }
 
@@ -411,6 +472,7 @@ header {
     background-color: #74A9DB;
     margin-top: 50px;
     margin-left: 500px;
+    margin-bottom: 50px;
        
            
     }
