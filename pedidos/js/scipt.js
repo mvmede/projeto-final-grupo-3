@@ -25,8 +25,10 @@
 
     minusButton.addEventListener('click', () => {
         
+       if (count > 0) {
         count -= 1;
         updateValue();
+       } 
     });
 
 //----------------------------------- js do counter2--------------------------------------//
@@ -40,21 +42,27 @@ const updateValue2 = () => {
     value2.innerHTML = count2;
 };
 
-
 let count2 = 0;
+let intervalID2 = 0;
 
 const increment2 = () => {
     count2 += 1;
     updateValue2();
 };
 
-const decrement2 = () => {
-    count2 -= 1;
-    updateValue2();
-};
-
 
 plusButton2.addEventListener('click', increment2);
-minusButton2.addEventListener('click', decrement2);
 
+plusButton2.addEventListener('mousedown', () => {
+    
+});
 
+document.addEventListener('mouseup', () => clearInterval(intervalID));
+
+minusButton2.addEventListener('click', () => {
+    
+   if (count2 > 0) {
+    count2 -= 1;
+    updateValue2();
+   } 
+});
