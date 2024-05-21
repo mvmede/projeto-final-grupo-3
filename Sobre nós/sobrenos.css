@@ -1,59 +1,3 @@
-/*----------------------------------------------------------HEADER----------------------------------------------------------*/
-
-* {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-
-
-header {
-    background-color: #ffffff;
-    color: #74A9DB;
-    padding: 10px 20px;
-    border-bottom: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
-.header-container {
-    font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.menu-header ul li {
-    display: inline-block;
-    margin-right: 40px;
-}
-
-.menu-header ul li a {
-    color: #636363;
-    text-decoration: none;
-}
-
-.fazerpedidos {
-    text-decoration: none;
-    border-radius: 8px;
-    border: 1px solid;
-    border-color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    font-size: medium;
-    padding: 8px 8px;
-    padding-left: 32px;
-    padding-right: 32px;
-    font-weight: 600;
-    background-color: #74A9DB;
-}
-
 /*----------------------------------------------------------BODY----------------------------------------------------------*/
 
 /*--------------------------------------------------------SOBRE NOS-------------------------------------------------------*/
@@ -63,27 +7,27 @@ header {
     font-family: "Inter";
     font-size: 40px;
     font-weight: 900;
-    margin-top: 200px;
+    margin-top: 80px;
     text-align: center;
 }
 
 .conteudo {
+    width: auto;
     display: flex;
-    place-items: center;
-}
-
-.imagemrestaurante {
-    padding-right: 400px;
-    padding-bottom: 60px;
-    padding-left: 50px;
+    padding: 0 20rem;
+    align-items: center;
 }
 
 .textosobrenos {
-    margin-left: 400px;
     margin-right: auto;
-    margin-bottom: 50px;
     font-family: "Inter";
     color: 262626;
+    width: 40rem;
+    gap: 20px;
+}
+
+.imagemrestaurante {
+    padding-top: 0px;
 }
 
 .boldtext {
@@ -93,8 +37,13 @@ header {
     font-weight: 900;
 }
 
+.spacing {
+    margin: 60px 0;
+}
+
 .imagens {
     text-align: center;
+    overflow: hidden;
 }
 
 .imagem1 {
@@ -158,4 +107,127 @@ header {
 
 }
 
-/*------------------------Footer------------------------*/
+/*------------------------Mobile------------------------*/
+
+@media screen and (max-width:780px) {
+
+    .sobrenos {
+        color: #74A9DB;
+        font-family: "Inter";
+        font-size: 40px;
+        font-weight: 900;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+
+    .conteudo {
+        width: auto;
+        display: inline;
+        padding: 0;
+        align-items: center;
+    }
+
+
+    .conteudo img {
+        width: 80vw;
+        margin: 0 10vw;
+    }
+
+    .imagens img {
+        display: flex;
+        width: 80vw;
+        margin: 0 10vw;
+    }
+
+    .imagem1 {
+        padding: 0px;
+        width: 80vw;
+        margin: 0 10vw;
+    }
+    
+    .imagem2 {
+        padding: 0px;
+        width: 80vw;
+        margin: 0 10vw;
+    }
+    
+    .imagem3 {
+        padding: 0px;
+        width: 80vw;
+        margin: 0 10vw;
+    }
+
+
+    .textosobrenos {
+        margin-right: 0;
+        font-family: "Inter";
+        color: #262626;
+        margin: 0 1rem;
+        width: auto;
+        font-size: 18px;
+        gap: 20px;
+        margin-bottom: 3rem;
+    }
+
+
+
+
+    .boldtext {
+        color: #00923F;
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .spacing {
+
+        margin: 60px 0;
+
+    }
+
+    
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+        border-top: 12px solid;
+        border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+        gap: 0;
+        padding-top: 10px;
+        align-items: center;
+        width: 80%vw;
+    }
+
+    .menufooter ul {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    .menufooter ul li a {
+        margin-right: 0px;
+    }
+
+    .social-icons {
+        align-items: center;
+    }
+
+    .logo-footer {
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    .creditos {
+        text-align: center;
+        font-size: 16px;
+        font-family: "Inter";
+        margin: 10px 20px;
+    }
+
+
+}

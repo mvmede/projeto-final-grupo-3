@@ -1,74 +1,6 @@
-/*----------------------------------------------------------HEADER----------------------------------------------------------*/
-
-* {
-
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-
-}
-
-
-header {
-    background-color: #ffffff;
-    color: #74A9DB;
-    padding: 10px 20px;
-    border-bottom: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
-.header-container {
-    font-family: "Inter";
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.menu-header ul li {
-
-    display: inline-block;
-    margin-right: 40px;
-
-}
-
-.menu-header ul li a {
-
-    color: #636363;
-    text-decoration: none;
-
-
-}
-
-.fazerpedidos {
-
-    text-decoration: none;
-    border-radius: 8px;
-    border: 1px solid;
-    border-color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    font-size: medium;
-    padding: 8px 8px;
-    padding-left: 32px;
-    padding-right: 32px;
-    font-weight: 600;
-    background-color: #74A9DB;
-
-
-}
-
 /*----------------------------------------------------------BODY----------------------------------------------------------*/
 
-.contato_1 {
-    margin-bottom: 30px;
-}
+
 
 /*----------------------------------------------------------CONTATOS--------------------------------------------------*/
 
@@ -79,21 +11,20 @@ header {
     font-size: 40px;
     font-weight: 900;
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 50px;
-
+    margin: 80px;
 }
 
 .imagemperfil {
     padding-right: 18px;
 }
 
+
 .perfil1 {
     display: inline-block;
     align-items: top;
     align-items: center;
     font-family: "Inter";
-    padding-right: 32px;
+    margin: 0 20px;
 }
 
 .perfil2 {
@@ -166,21 +97,18 @@ section {
 }
 
 .texto_sobre_o_projeto {
-    height: 100%;
-    display: flex;
-    margin-left: 400px;
-    margin-right: 400px;
+    height: 180px;
+    width: auto;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
     margin-bottom: 40px;
-    justify-content: center;
-    align-items: center;
     font-family: "Inter";
-    color: 262626;
+    color: #262626;
 }
 
 .texto {
-
     text-align: center;
-
 }
 
 /*------------------------Footer------------------------*/
@@ -232,4 +160,144 @@ section {
 
 }
 
-/*------------------------Footer------------------------*/
+/*------------------------Mobile------------------------*/
+
+@media screen and (max-width:780px) {
+
+    .titulo_contato {
+        margin-top: 60px;
+    }
+
+
+    .imagemperfil img {
+        width: auto;
+        align-items: center;
+        padding: 0 0px;
+        margin-left: 135px;
+        margin-bottom: 1rem;
+    }
+
+    .imagemperfil {
+        padding-right: 0px;
+        align-items: center;
+    }
+
+
+    .perfil1 {
+        display: inline-block;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+        margin: 0 0px;
+        margin-bottom: 2rem;
+
+    }
+
+    .perfil2 {
+        display: inline-block;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+        margin: 0 0px;
+        padding: 0 0;
+        margin-bottom: 2rem;
+    }
+
+    .perfil3 {
+        display: inline-block;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+        margin: 0 0px;
+        margin-bottom: 2rem;
+    }
+
+    .perfil4 {
+        display: inline-block;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+        margin: 0 0px;
+        padding: 0 0;
+        margin-bottom: 2rem;
+    }
+
+    .perfil5 {
+        display: inline-block;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+        margin: 0 0px;
+    }
+
+    .nome {
+        font-size: 18px;
+        color: #74A9DB;
+        font-weight: bold;
+    }
+
+    .email {
+        font-size: 18px;
+    }
+
+
+    .texto_sobre_o_projeto {
+
+        height: auto;
+        width: auto;
+        margin-right: 3vw;
+        font-size: 14px;
+        margin-left: 3vw;
+        margin-bottom: 40px;
+
+    }
+
+    .texto {
+        text-align: left;
+    }
+
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+        border-top: 12px solid;
+        border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+        gap: 0;
+        padding-top: 10px;
+        align-items: center;
+        width: 80%vw;
+    }
+
+    .menufooter ul {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    .menufooter ul li a {
+        margin-right: 0px;
+    }
+
+    .social-icons {
+        align-items: center;
+    }
+
+    .logo-footer {
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    .creditos {
+        text-align: center;
+        font-size: 16px;
+        font-family: "Inter";
+        margin: 10px 20px;
+    }
+
+
+}
