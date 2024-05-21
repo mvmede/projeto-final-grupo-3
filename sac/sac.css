@@ -76,20 +76,24 @@ header {
     font-size: 20px;
     font-weight: normal;
     text-align: left;
-    margin-left: 0%;
+    margin-left: 0%
+
 }
 
 .text-SAC {
+    margin-bottom: 100px;
     color: black;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400px;
     text-align: normal;
     margin-left: 0%;
+
 }
 
 .main-container {
     display: flex;
+    margin-top: 50px;
     width: 1100px;
     gap: 30px;
     justify-content: center;
@@ -119,6 +123,7 @@ header {
 
 .div-1 {
     display: flex; 
+    margin-top: -30px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -128,7 +133,8 @@ header {
     font-weight: bold;       
     font-size: 50px; 
     background-color: #3873a6;
-    border-radius: 20px; 
+    border-radius: 20px
+
 }
 
 .div-2 {
@@ -160,10 +166,27 @@ header {
 }
 
 .atendimento-title {
+    text-align: center;
     background-color: transparent; 
     font-weight: bolder;
 }
 
+.fale-title {
+    text-align: center;
+    background-color: transparent; 
+    font-weight: bolder;
+
+}
+
+.text-0 {
+    font-family: "Inter";
+    text-align: center;
+    font-size: 16px;
+    color: #3873a6;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
+}
 .text-1 {
     display: flex; 
     align-items: center;
@@ -177,7 +200,7 @@ header {
 .text-2 {
     font-family: "Inter";
     font-size: 16px;
-    color: #a4cff5;
+    color: #c4d6e7;           
     background-color: transparent;
     margin-top: 20px;
     font-weight: 400;
@@ -193,6 +216,29 @@ header {
     background-color: transparent;
 }
 
+.text-4 {
+    font-family: "Inter";
+    text-align: center;
+    font-size: 16px;
+    color: #3873a6;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.div-4 {
+    display: flex; 
+    margin-top: 40px;
+   margin-left: 20px;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;          
+    font-weight: bold;       
+    font-size: 50px; 
+    background-color: #00923F;
+    border-radius: 20px; 
+
+}
 /*------------------------Footer------------------------*/
 
 .footer-container {
