@@ -229,7 +229,7 @@ header {
 .div-4 {
     display: flex; 
     margin-top: 40px;
-   margin-left: 20px;
+    margin-left: 20px;
     flex-direction: column;
     width: 400px;
     height: 250px;          
@@ -237,8 +237,35 @@ header {
     font-size: 50px; 
     background-color: #00923F;
     border-radius: 20px; 
-
 }
+
+.image1 {
+    display: flex;
+    width: 200px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    margin-left: 140px;
+    flex-direction: column;
+    
+}
+
+.image2 { 
+    display: flex;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+    flex-direction: column; 
+}
+
+.image3 { 
+    display: flex;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    flex-direction: column; 
+}
+
+
 /*------------------------Footer------------------------*/
 
 .footer-container {
