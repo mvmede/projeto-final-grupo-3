@@ -186,48 +186,4 @@
 
     }
 
-    
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        font-family: "Inter", sans-serif;
-        border-top: 12px solid;
-        border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-        gap: 0;
-        padding-top: 10px;
-        align-items: center;
-        width: 80%vw;
-    }
-
-    .menufooter ul {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 18px;
-    }
-
-    .menufooter ul li a {
-        margin-right: 0px;
-    }
-
-    .social-icons {
-        align-items: center;
-    }
-
-    .logo-footer {
-        padding-top: 20px;
-        padding-right: 0;
-    }
-
-    .creditos {
-        text-align: center;
-        font-size: 16px;
-        font-family: "Inter";
-        margin: 10px 20px;
-    }
-
-
 }
