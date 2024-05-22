@@ -121,7 +121,7 @@ header {
 
 }
 
-.div-1 {
+.div1 {
     display: flex; 
     margin-top: -30px;
     justify-content: center;
@@ -137,7 +137,7 @@ header {
 
 }
 
-.div-2 {
+.div2 {
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -151,7 +151,7 @@ header {
     border-radius: 20px; 
 }
 
-.div-3 {
+.div3 {
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -178,7 +178,7 @@ header {
 
 }
 
-.text-0 {
+.text0 {
     font-family: "Inter";
     text-align: center;
     font-size: 16px;
@@ -187,7 +187,7 @@ header {
     margin-top: 20px;
     font-weight: 400;
 }
-.text-1 {
+.text1 {
     display: flex; 
     align-items: center;
     margin-left: 25px;
@@ -197,7 +197,7 @@ header {
     background-color: transparent;
 }
 
-.text-2 {
+.text2 {
     font-family: "Inter";
     font-size: 16px;
     color: #c4d6e7;           
@@ -206,7 +206,7 @@ header {
     font-weight: 400;
 }
 
-.text-3 {
+.text3 {
     display: flex; 
     align-items: center;
     margin-left: 25px;
@@ -216,7 +216,7 @@ header {
     background-color: transparent;
 }
 
-.text-4 {
+.text4 {
     font-family: "Inter";
     text-align: center;
     font-size: 16px;
@@ -226,7 +226,7 @@ header {
     font-weight: 400;
 }
 
-.div-4 {
+.div4 {
     display: flex; 
     margin-top: 40px;
     margin-left: 20px;
@@ -259,7 +259,7 @@ header {
 
 .image3 { 
     display: flex;
-    width: 200px;
+    width: 100px;
     margin-bottom: 30px;
     margin-left: 100px;
     flex-direction: column; 
