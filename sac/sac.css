@@ -118,6 +118,7 @@ header {
     color: #3873a6;
     font-family: "Inter";
     margin: 50px;
+    z-index: 1;
 
 }
 
@@ -175,7 +176,6 @@ header {
     text-align: center;
     background-color: transparent; 
     font-weight: bolder;
-
 }
 
 .text0 {
@@ -187,6 +187,7 @@ header {
     margin-top: 20px;
     font-weight: 400;
 }
+
 .text1 {
     display: flex; 
     align-items: center;
@@ -237,32 +238,38 @@ header {
     font-size: 50px; 
     background-color: #00923F;
     border-radius: 20px; 
+    z-index: 1;
 }
+    
 
 .image1 {
     display: flex;
     width: 200px;
+    border-radius: 10px;
     margin-top: 80px;
     margin-bottom: 25px;
-    margin-left: 140px;
+    margin-left: 170px;
     flex-direction: column;
-    
 }
 
 .image2 { 
     display: flex;
     width: 200px;
+    border-radius: 10px;
     margin-bottom: 30px;
-    margin-left: 140px;
+    margin-left: 170px;
     flex-direction: column; 
 }
 
 .image3 { 
     display: flex;
-    width: 100px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    flex-direction: column; 
+    transform: translate(-50%, -50%);
+    width: 55%; 
+    height: auto;
+    margin-top: -35%;
+    margin-left: 10%;
+    z-index: 2; 
+    background-color: transparent;
 }
 
 
