@@ -121,6 +121,10 @@ h3 {
         width: 100%;
         flex-direction:row;        
     }
+    .comidas-container div:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }   
     .comidaargentina,
     .comidabrasileira,
     .comidachilena,
