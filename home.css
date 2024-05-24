@@ -1,167 +1,82 @@
-
-
 /*----------------------------------------------------------BODY----------------------------------------------------------*/
-
-
 h3 {
     text-decoration: none;
 }
-
 .banner1-contenedor {
-    margin-bottom: 40px;
     max-width: 100%;
     overflow: hidden;
 }
-
 .banner1-contenedor img {
     width: 100%;
     position: center;
     height: auto;
     display: block;
-
 }
-
 .titulobuscar {
-
     font-family: "Inter";
     font-size: 40px;
     font-weight: 900;
     color: #74A9DB;
     text-align: center;
-
+    margin: 20px;
 }
-
 .subtitulobuscar {
-
     font-family: "Inter";
     font-size: 16px;
     font-weight: normal;
     color: #858585;
     text-align: center;
-
 }
-
-
 .comidas-container {
     flex-wrap: wrap;
     text-align: center;
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
 }
-
 .comidas-container div:hover {
     transform: scale(1.1);
     transition: 1s;
 }
-
-
-.comidaargentina {
-
-    font-family: "Inter";
-    font-size: 20px;
-    font-weight: bolder;
-    color: #74A9DB;
-    text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
-
-}
-
-.comidabrasileira {
-
-    font-family: "Inter";
-    font-size: 20px;
-    font-weight: bolder;
-    color: #74A9DB;
-    text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
-
-}
-
-.comidachilena {
-
-    font-family: "Inter";
-    font-size: 20px;
-    font-weight: bolder;
-    color: #74A9DB;
-    text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
-
-}
-
-.comidacolombiana {
-
-    font-family: "Inter";
-    font-size: 20px;
-    font-weight: bolder;
-    color: #74A9DB;
-    text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
-
-}
-
-
+.comidaargentina,
+.comidabrasileira,
+.comidachilena,
+.comidacolombiana, 
 .comidaperuana {
-
     font-family: "Inter";
     font-size: 20px;
     font-weight: bolder;
     color: #74A9DB;
     text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
-
+    padding: 30px;
 }
-
-#destaques {
-    margin-top: 40px;
-}
-
-.opcao_1 img {
-    width: 550px;
-    height: 400px;
-    display: flex;
-    object-fit: cover;
-    border-radius: 25px;
-    margin-bottom: 10px;
-}
-
-.opcao_2 img {
-    width: 550px;
-    height: 400px;
-    display: flex;
-    object-fit: cover;
-    border-radius: 25px;
-    margin-bottom: 10px;
-}
-
 .destaquescontainer {
     flex-wrap: wrap;
     text-align: center;
-    display: flex;
+    grid-template-columns: 500px 500px;
+    display: grid;
+    gap: 20px;
+    overflow: visible;
     justify-content: center;
 }
-
-.destaques {
-    margin-right: 30px;
+.opcao_1 img, 
+.opcao_2 img {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 25px;
 }
-
 .subtitulodestaque {
     font-family: "Inter";
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     font-weight: 900;
     color: #74A9DB;
     text-align: center;
+    margin-top: 10px;
 }
-
 .descripciondestaque {
-    width: 500px;
+    width: auto;
     font-family: "Inter";
     font-size: 16px;
     font-weight: normal;
@@ -169,16 +84,14 @@ h3 {
     color: #3f3f3f;
     text-align: center;
 }
-
 .conferircontainer {
     flex-wrap: wrap;
     text-align: center;
     display: flex;
     justify-content: center;
+    margin: 30px;
 }
-
 .conferircardapio {
-
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
@@ -190,24 +103,54 @@ h3 {
     background-color: #00923F;
     text-align: center;
 }
-
-
-
-.ultimobanner img {
-    width: 100%;
-    height: auto;
-    display: block;
-    max-width: 100%;
-    margin-top: 30px;
-    overflow: hidden;
-
+@media screen and (max-width :768px){
+    .banner1-contenedor {
+        position: grid;
+        height: 190px;
+        overflow:visible ;
+    }
+    .banner1-contenedor img {
+        height: 190px;
+        width: auto;
+        max-width: none;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .comidas-container {
+        width: 100%;
+        flex-direction:row;        
+    }
+    .comidaargentina,
+    .comidabrasileira,
+    .comidachilena,
+    .comidacolombiana, 
+    .comidaperuana {
+        font-size: 25px;
+        padding: 0;
+        margin: -40px;
+        transform: scale(0.4);
+    }
+    .destaquescontainer {
+        grid-template-columns: 85%;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .titulobuscar {
+        margin: 10px;
+        font-size: 30px;
+    }
+    .opcao_1 img, 
+    .opcao_2 img {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        max-width: 100%;
+        border-radius: 30px;
+        margin: 10px 0 20px 0;
+    }
 }
-
-
-
-
 /*------------------------Footer------------------------*/
-
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -218,7 +161,6 @@ h3 {
     gap: 10px;
     padding-top: 10px;
 }
-
 .logo-footer {
     padding-top: 20px;
     padding-right: 40px;
