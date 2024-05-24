@@ -2,7 +2,87 @@ a {
     color: #74A9DB;
     text-decoration: none;
 }
-
+section {
+    flex: 1;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+p {
+    margin-bottom: 30px;
+}
+#local {
+    color: #009540;
+    font-weight: 800;
+}
+.Back_Button {
+    position: relative;
+    left: calc(52.5% - 500px);
+    top: 20px;
+    font-size: 20px;
+    color: #74A9DB;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+.Back_Button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    transform: translateY(-50%);
+    border-width: 8px 8px 8px 8px;
+    border-style: solid;
+    border-color: transparent #74A9DB transparent transparent;
+}
+.Product_Container {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    overflow: visible;
+}
+.Subtitle {
+    font-family: "Inter";
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #74A9DB;
+    text-align: center;
+    margin-top: 20px;
+}
+.Text {
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none; 
+    display: grid;
+    grid-template-columns: 490px 1fr; 
+    gap: 20px;
+    width: 100%;
+    color: #3f3f3f;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+.Product_Image {
+    max-width: 490px;
+    border-radius: 30px;
+}
+.Add_to_Cart {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+    margin-top: 10px;
+}
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -42,49 +122,13 @@ a {
     padding-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
-    .Back_Button {
-        position: relative;
-        left: calc(52.5% - 550px);
-        top: 40px;
-        font-size: 20px;
-        color: #74A9DB;
-        cursor: pointer;
-        font-family: "Inter", sans-serif;
-        padding-left: 20px;
-        padding-right: 20px;
-        display: inline-block;
-    }
-    .Back_Button::before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: -5px;
-        transform: translateY(-50%);
-        border-width: 8px 8px 8px 8px;
-        border-style: solid;
-        border-color: transparent #74A9DB transparent transparent;
-    }
-    .Product_Container {
-        position: relative;
-        display: flex;
-        grid-template-columns: 1fr;    
+    .Product_Container {   
         gap: 20px;
         width: 100%; 
-        max-width: 94%;
+        max-width: 92%;
         margin-top: 30px;
-        margin-bottom: 50px;
-        overflow: hidden;
-        height: 500px;
-        margin-left: 1rem;
-    }
-    .Subtitle {
-        font-family: "Inter";
-        font-size: 30px;
-        text-decoration: none; 
-        font-weight: 900;
-        color: #74A9DB;
-        text-align: center;
-        margin-top: 20px;
+        overflow: visible;
+        height: 100%;
     }
     .Text {
         font-family: "Inter";
@@ -95,6 +139,7 @@ a {
         position: relative;
         text-align: center;
         top: 10px;
+        grid-template-columns: 1fr; 
     }
     .Product_Image {
         width: 100%;
@@ -103,18 +148,5 @@ a {
         max-width: 500px;
         margin-top: 20px;
         border-radius: 30px;
-    }
-    .Add_to_Cart {
-        text-decoration: none;
-        border-radius: 8px;
-        border: 1px solid;
-        border-color: #74A9DB;
-        font-family: "Inter", sans-serif;
-        font-size: medium;
-        padding: 8px 8px;
-        padding-left: 32px;
-        padding-right: 32px;
-        font-weight: 600;
-        background-color: #74A9DB;
     }
 }

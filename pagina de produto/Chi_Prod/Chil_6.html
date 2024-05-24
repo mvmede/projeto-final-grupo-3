@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../paginadeproduto.css">
+    <link rel="stylesheet" href="../../header_footer.css">
     <title>A DivisA</title>
     <link rel="icon" href="../../Imagens/Favicon.png">
     <style>
         @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
     </style>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
     <!---------------------HEADER----------------->
     <header>
@@ -26,8 +24,7 @@
             <div class="menu-header">
                 <ul>
                     <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../../Cardápio/cardapio.html" style="color: #009540; font-weight: 800;">Cardápio</a>
-                    </li>
+                    <li><a href="../../Cardápio/cardapio.html" id="local">Cardápio</a></li>
                     <li><a href="../../Sobre nós/sobrenos.html">Sobre nós</a></li>
                     <li><a href="../../Contato/contato.html">Contato</a></li>
                     <button class="fazerpedidos">
@@ -45,26 +42,24 @@
                 <h3>Voltar</h3>
             </a>
         </div>
-        <div class="Product_Container">
+        <main class="Product_Container">
             <div class=Text>
-                <h3 class=Subtitle>Cuchufli</h3><br>
+                <nav>
+                <h3 class=Subtitle>Cuchufli</h3>
                 <p class=Text>O cuchuflí é um doce típico chileno, em forma de tubo, com uma massa crocante ou esponjosa
-                    e recheio de doce de leite ou manjar. É feito com açúcar, claras de ovo, farinha, manteiga e
-                    baunilha, e pode ser coberto com chocolate.
-                </p><br><br>
-                <h4 class=Subtitle>R$ 15,00</h4><br><br><br>
-
+                    e recheio de doce de leite ou manjar. É feito com açúcar, claras de ovo, farinha, manteiga e baunilha, e pode ser coberto com chocolate.</p>
+                <h4 class=Subtitle>R$ 15,00</h4>
                 <a href="../../Fazer pedido/fazerpedidos.html">
                     <button class="Add_to_Cart"
                         style="text-decoration: none; color: #fff; background-color: #74A9DB;">Adicionar ao
                         Pedido</button>
                 </a>
-
+                </nav>
+                <div>
+                    <img src="../../Imagens/Imagens_Produtos/Chil_6.png" alt="Cuchufli Chile" class=Product_Image>
+                </div>
             </div>
-            <div>
-                <img src="../../Imagens/Imagens_Produtos/Chil_6.png" alt="Cuchufli Chile" class=Product_Image>
-            </div>
-        </div>
+        </main>
     </section>
     <!-----------------------FOOTER--------------->
     <footer>
@@ -75,7 +70,7 @@
             <div class="menufooter">
                 <ul>
                     <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../../Cardápio/cardapio.html"></i>Cardápio</a></li>
+                    <li><a href="../../Cardápio/cardapio.html" id="local"></i>Cardápio</a></li>
                     <li><a href="../../Sobre nós/sobrenos.html"></i>Sobre nós</a></li>
                     <li><a href="../../pedidos/pedidos.html"></i>Fazer pedido</a></li>
                     <li><a href="../../Contato/contato.html"></i>Contato</a></li>
@@ -92,5 +87,4 @@
         </div>
     </footer>
 </body>
-
 </html>
