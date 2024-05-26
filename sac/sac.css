@@ -1,4 +1,4 @@
-/*----------------------------------------------------------HEADER----------------------------------------------------------*/
+/*------------------------HEADER-----------------------*/
 
 * {
     background-color: #ffffff;
@@ -56,18 +56,17 @@ header {
     background-color: #74A9DB;
 }
 
-/*----------------------------------------------------------BODY----------------------------------------------------------*/
-
+/*------------------------BODY-----------------------*/
 
 .title-SAC {
     margin-top: 100px;
-    width: 900px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: bolder;
     text-align: left;
     margin-left: 200px;
+    width: 1100px;
 }
 
 .subtitle-SAC {
@@ -77,6 +76,7 @@ header {
     font-weight: normal;
     text-align: left;
     margin-left: 0%
+    width: 1100px;
 
 }
 
@@ -88,6 +88,7 @@ header {
     font-weight: 400px;
     text-align: normal;
     margin-left: 0%;
+    width: 1100px;
 
 }
 
@@ -272,8 +273,25 @@ header {
     background-color: transparent;
 }
 
+/*-------------------BODY (MOBILE)---------------------*/
 
-/*------------------------Footer------------------------*/
+@media screen and (max-width:780px) {
+
+    .title-SAC {
+        margin: 15px;
+        font-size-adjust: 1.0;
+    }
+
+    .subtitle-SAC {
+        margin: 15px;
+    }
+
+    .text-SAC {
+        margin: 15px;
+    }
+}
+
+/*------------------------FOOTER-----------------------*/
 
 .footer-container {
     display: flex;
