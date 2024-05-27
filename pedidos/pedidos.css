@@ -1,28 +1,49 @@
 * {
+
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+
+
 }
+
 a {
+
     text-decoration: none;
     color: #74A9DB;
-}
-body {
 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    
+    justify-content: center;
+    align-items: center;
     overflow-x: hidden;
-    /* Impede a barra de rolagem horizontal */
+    
 }
 
 .container {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    /* Para garantir que a altura do contêiner seja igual à altura da janela de visualização */
+    width: 100%;
+
+
+   
 
 }
 
 header {
+
     background-color: #ffffff;
     color: #74A9DB;
     padding: 10px 20px;
@@ -34,8 +55,11 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+
 }
+
 .header-container {
+
     font-family: "Inter", sans-serif;
     max-width: auto;
     display: inline-flex;
@@ -43,15 +67,23 @@ header {
     justify-content: flex-start;
     align-items: center;
 }
+
 .menu-header ul li {
+
     display: inline-block;
     margin-right: 40px;
+
 }
+
 .menu-header ul li a {
+
     color: #636363;
     text-decoration: none;
+
 }
+
 .fazerpedidos {
+
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
@@ -63,8 +95,15 @@ header {
     padding-right: 32px;
     font-weight: 600;
     background-color: #74A9DB;
+
+
 }
+
 /*----------------------------------------------------------BODY----------------------------------------*/
+
+
+
+
 .button-back {
     margin-top: 200px;
     margin-left: 210px;
@@ -73,8 +112,11 @@ header {
     font-family: "Inter", sans-serif;
     position: relative;
     cursor: pointer;
+
 }
+
 .button-back::before {
+
     content: "";
     position: absolute;
     margin-top: 10px;
@@ -83,8 +125,12 @@ header {
     border-width: 8px 8px 8px 0;
     border-style: solid;
     border-color: transparent #74A9DB transparent transparent;
+
 }
+
+
 .title {
+
     text-align: center;
     position: absolute;
     color: #74A9DB;
@@ -95,11 +141,19 @@ header {
     margin-right: 100px;
 
 }
+
 .order1 {
+
     margin-top: -300px;
     font-family: "Inter", sans-serif;
+
 }
+
+
+
 .dish1-title {
+
+
     text-align: center;
     position: absolute;
     margin-left: 180px;
@@ -107,35 +161,54 @@ header {
     margin-right: 10px;
     color: #74A9DB;
     font-size: 30px;
+
 }
+
+
 .desc1 {
+
     font-size: 10px;
     color: black;
     margin-left: 180px;
     margin-top: 450px;
+
+
 }
+
+
+
 .button-remov1 {
+
+
+    margin-left: 485px;
     margin-left: 510px;
     margin-top: -60px;
     text-decoration: underline;
     cursor: pointer;
     color: black;
     font-family: "Inter", sans-serif;
+
 }
+
 #counter1 {
+
+
     border-radius: 8px;
     display: flex;
     align-items: center;
     position: absolute;
+    margin-left: 585px;
     margin-left: 605px;
     margin-top: -45px;
     background-color: #74A9DB;
     border-radius: 8px;
 }
+
 #counter1 div {
     display: flex;
     align-items: center;
 }
+
 #value1 {
     font-size: 1rem;
     min-width: 4rem;
@@ -144,75 +217,118 @@ header {
     border-bottom: groove;
     border-color: #74A9DB;
 }
+
 button {
     border: none;
     font-weight: 500;
     cursor: pointer;
     transition: opacity .3s;
 }
+
 .count-button {
     width: 2rem;
     height: 2rem;
     font-size: 1rem;
     background-color: #74A9DB;
 }
+
 #minus1 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    
+
 }
+
 #plus1 {
-   
+
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+
+
+
+
 .price1 {
+
     margin-top: -40px;
+    margin-left: 785px;
     margin-left: 805px;
     margin-bottom: 500px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
+
 }
+
 .img-dish1 {
+
     margin-top: -570px;
+    margin-left: 953px;
     margin-left: 970px;
     margin-bottom: 10px;
+
+
 }
+
 .center-line {
+
     height: 1px;
     background-color: #74A9DB;
     margin-top: 60px;
     margin-left: 180px;
+    margin-right: 155px;
     margin-right: 170px;
     margin-bottom: 0px;
+
 }
+
 .order2 {
+
     font-family: "Inter", sans-serif;
+
+
 }
+
+
+
 .dish2-title {
+
+
     text-align: center;
     position: absolute;
+    margin-left: 200px;
     margin-left: 180px;
     margin-top: 40px;
     margin-right: 50px;
     color: #74A9DB;
     font-size: 30px;
+
 }
+
 .desc2 {
+
     font-size: 10px;
     color: black;
     margin-top: 100px;
+    margin-left: 200px;
+
     margin-left: 180px;
 }
+
 .button-remov2 {
+
     margin-top: -35px;
     margin-left: 506px;
     text-decoration: underline;
     cursor: pointer;
     color: black;
     font-family: "Inter", sans-serif;
+
+
 }
+
 #counter2 {
+
+
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -222,10 +338,12 @@ button {
     background-color: #74A9DB;
     border-radius: 8px;
 }
+
 #counter2 div {
     display: flex;
     align-items: center;
 }
+
 #value2 {
     font-size: 1rem;
     min-width: 4rem;
@@ -234,59 +352,87 @@ button {
     border-bottom: groove;
     border-color: #74A9DB;
 }
+
 button {
     border: none;
     font-weight: 500;
     cursor: pointer;
     transition: opacity .3s;
 }
+
 .count-button {
     width: 2rem;
     height: 2rem;
     font-size: 1rem;
     background-color: #74A9DB;
 }
+
 #minus2 {
+
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-   
+
 }
+
 #plus2 {
-   
+
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+
+
 }
+
 .price2 {
+
     margin-top: -35px;
     margin-left: 805px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
+
 }
+
 .img-dish2 {
+
     margin-top: -70px;
     margin-left: 970px;
     margin-right: 175px;
+
+
 }
+
 .final-line {
+
     height: 1px;
     background-color: #74A9DB;
+    margin-left: 200px;
     margin-left: 180px;
     margin-right: 170px;
     margin-top: 60px;
+
 }
+
 .subtotal {
+
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     margin-top: 50px;
+    margin-left: 20px;
+
     margin-left: 180px;
 }
+
 .final-price {
+
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     margin-top: -20px;
+    margin-left: 865px;
+
     margin-left: 1040px;
 }
+
 .button-advance {
+
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
@@ -299,10 +445,13 @@ button {
     font-weight: 600;
     background-color: #74A9DB;
     margin-top: 50px;
+    margin-left: 430px;
     margin-left: 600px;
     margin-bottom: 40px;
 }
+
 /*------------------------Footer------------------------*/
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -313,34 +462,43 @@ button {
     gap: 10px;
     padding-top: 10px;
 }
+
 .logo-footer {
     padding-top: 20px;
     padding-right: 40px;
 }
+
 .menufooter {
     margin-top: 50px;
 }
+
 .menufooter ul li {
     display: inline;
 }
+
 .menufooter ul li a {
     color: #636363;
     text-decoration: none;
     margin-right: 40px;
 }
+
 .social-icons {
     margin-top: 35px;
     display: flex;
 }
+
 .social-icons a {
     margin-left: 10px;
 }
+
 .creditos {
     text-align: center;
     font-size: 14px;
     font-family: "Inter", sans-serif;
     padding-bottom: 30px;
+
 }
 /*------------------------Footer------------------------*/
 /*------------------------------------------mobile---------------------------------------------------*/
+
 
