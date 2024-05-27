@@ -21,6 +21,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 .header-container {
@@ -59,13 +60,14 @@ header {
 /*------------------------BODY-----------------------*/
 
 .title-SAC {
-    margin-top: 100px;
+    display: block;
+    margin-top: 130px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: bolder;
     text-align: left;
-    margin-left: 130px;
+    margin-left: 75px;
     width: 1100px;
 }
 
@@ -76,13 +78,14 @@ header {
     font-size: 20px;
     font-weight: normal;
     text-align: left;
+    margin-top: 15px;
     margin-left: 0%;
     width: 80%;
 }
 
 .text-SAC {
     display: block;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     color: black;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -116,6 +119,7 @@ header {
 }
 
 .div0 {
+    display: block;
     background-color: transparent;
     color: #3873a6;
     font-family: "Inter";
@@ -167,18 +171,21 @@ header {
 }
 
 .atendimento-title {
+    display: block;
     text-align: center;
     background-color: transparent; 
     font-weight: bolder;
 }
 
 .fale-title {
+    display: block;
     text-align: center;
     background-color: transparent; 
     font-weight: bolder;
 }
 
 .text0 {
+    display: block;
     font-family: "Inter";
     text-align: center;
     font-size: 16px;
@@ -189,7 +196,7 @@ header {
 }
 
 .text1 {
-    display: flex; 
+    display: block; 
     align-items: center;
     margin-left: 25px;
     color: #c4d6e7;           
@@ -199,6 +206,7 @@ header {
 }
 
 .text2 {
+    display: block;
     font-family: "Inter";
     font-size: 16px;
     color: #c4d6e7;           
@@ -208,7 +216,7 @@ header {
 }
 
 .text3 {
-    display: flex; 
+    display: block;
     align-items: center;
     margin-left: 25px;
     color: #c4d6e7;           
@@ -218,6 +226,7 @@ header {
 }
 
 .text4 {
+    display: block;
     font-family: "Inter";
     text-align: center;
     font-size: 16px;
@@ -277,7 +286,7 @@ header {
 @media screen and (max-width:780px) {
 
     .title-SAC {
-        margin-top: 5%;
+        margin-top: 20%;
         margin-left: 5%;
         text-align: justify;
         font-size: 35px;
@@ -286,12 +295,12 @@ header {
     .subtitle-SAC {
         width: 40%;
         margin-top: 2%;
-        text-align: justify;
+        text-align: center;
     }
 
     .text-SAC {
         width: 100%;
-        text-align: justify;
+        text-align: center;
         margin-bottom: 5%;
     }
 
