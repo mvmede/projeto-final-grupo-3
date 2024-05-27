@@ -65,22 +65,23 @@ header {
     font-size: 40px;
     font-weight: bolder;
     text-align: left;
-    margin-left: 200px;
+    margin-left: 130px;
     width: 1100px;
 }
 
 .subtitle-SAC {
+    display: block;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: normal;
     text-align: left;
-    margin-left: 0%
-    width: 1100px;
-
+    margin-left: 0%;
+    width: 80%;
 }
 
 .text-SAC {
+    display: block;
     margin-bottom: 100px;
     color: black;
     font-family: "Inter", sans-serif;
@@ -89,12 +90,12 @@ header {
     text-align: normal;
     margin-left: 0%;
     width: 1100px;
-
 }
 
 .main-container {
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 1100px;
     gap: 30px;
     justify-content: center;
@@ -120,7 +121,6 @@ header {
     font-family: "Inter";
     margin: 50px;
     z-index: 1;
-
 }
 
 .div1 {
@@ -136,7 +136,6 @@ header {
     font-size: 50px; 
     background-color: #3873a6;
     border-radius: 20px
-
 }
 
 .div2 {
@@ -278,20 +277,49 @@ header {
 @media screen and (max-width:780px) {
 
     .title-SAC {
-        margin: 15px;
-        font-size-adjust: 1.0;
+        margin-top: 5%;
+        margin-left: 5%;
+        text-align: justify;
+        font-size: 35px;
     }
 
     .subtitle-SAC {
-        margin: 15px;
+        width: 40%;
+        margin-top: 2%;
+        text-align: justify;
     }
 
     .text-SAC {
-        margin: 15px;
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 5%;
+    }
+
+     .main-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .child-container {
+        width: 450px;
+        margin-left: -60%;
+    }
+
+    .div4 {
+        margin-left: 0px;
+    }
+
+    .image1, .image2 {
+        width: 190px;
+    }
+
+    .image3 {
+        width: 45%;
+        margin-left: 16%;
     }
 }
 
-/*------------------------FOOTER-----------------------*/
+/*------------------------Footer------------------------*/
 
 .footer-container {
     display: flex;
@@ -318,7 +346,7 @@ header {
 }
 
 .menufooter ul li a {
-    color: #636363;
+    color: #000000;
     text-decoration: none;
     margin-right: 40px;
 }
@@ -335,9 +363,62 @@ header {
 .creditos {
     text-align: center;
     font-size: 14px;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     padding-bottom: 30px;
 
 }
 
 /*------------------------Footer------------------------*/
+
+
+
+/*--------------------------Mobile---------------------*/
+
+@media screen and (max-width:780px) {
+
+
+    .title-page {
+        margin-top: 60px;
+        color: #74A9DB;
+        font-family: "Inter";
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .input-container {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-wrap: wrap;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 0px;
+        font-family: "Inter";
+        font-weight: normal;
+    }
+
+    .input-container > div > input {
+        font-size: 16px;
+    }
+
+    .input-container > div > p {
+        font-size: 20px;
+    }
+
+    .advance {
+        text-decoration: none;
+        border-radius: 8px;
+        border: 1px solid;
+        border-color: #74A9DB;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        padding: 8px 8px;
+        width: 325px;
+        height: 50px;
+        font-weight: 600;
+        background-color: #74A9DB;
+    }
+
+}
