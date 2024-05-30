@@ -534,6 +534,13 @@ button {
 
 @media screen and (max-width: 780px) {
     
+    .body{
+
+        width: 100vw;
+        overflow-x: hidden;
+        
+    }
+    
     .inside {
         display: flex;
         flex-direction: column;
@@ -634,12 +641,12 @@ button {
     }
 
     .center-line {
-        width: 90%;
+        width: 100vw;
         margin: 20px auto;
         margin-top: 70px;
     }
     .final-line {
-        width: 90%;
+        width: 100vw;
         margin: 20px auto;
         margin-top: 60px;
     }
