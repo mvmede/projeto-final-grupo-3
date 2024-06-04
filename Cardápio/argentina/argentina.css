@@ -1,5 +1,12 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 a {
@@ -13,6 +20,8 @@ a {
     width: 100%;
     height: auto;
     max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /*------------------------Banner Países------------------------*/
@@ -122,3 +131,103 @@ a {
 
 /*------------------------Comidas Container------------------------*/
 
+<<<<<<< HEAD
+=======
+/*------------------------Footer------------------------*/
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.menufooter {
+    margin-top: 50px;
+}
+
+.menufooter ul li {
+    display: inline;
+}
+
+.menufooter ul li a {
+    color: #636363;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.social-icons {
+    margin-top: 35px;
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.creditos {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 30px;
+
+}
+
+/*------------------------Footer------------------------*/
+@media only screen and (max-width: 480px) {
+    .banner-paises {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .banner-paises img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .container-comidas {
+        padding: 10px;
+    }
+    
+    .comida {
+        width: 100%;
+        margin: 10px 0; 
+        font-size: 0.9em;
+    }
+    
+    .comida img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    
+    .titulocomida {
+        font-size: 1.5em; 
+    }
+    
+    .descricaocomida {
+        font-size: 0.9em;
+    }
+    
+    .valor {
+        font-size: 1em; 
+    }
+    
+    .AdicionarPedido {
+        font-size: 1em; 
+        padding: 8px 12px;
+    }
+}
+
+/*-----------------------Media Queries Fim-------------------------*/
+>>>>>>> 410163795787a7701ac02453a10ceca87976a83e
