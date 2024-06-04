@@ -1,5 +1,12 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /*------------------------HEADER------------------------*/
@@ -52,11 +59,13 @@
 /*------------------------HEADER------------------------*/
 
 /*------------------------Banner Países------------------------*/
-.banner-paises img{
+.banner-paises img {
     display: block;
     width: 100%;
     height: auto;
     max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 /*------------------------Banner Países------------------------*/
 
@@ -204,3 +213,53 @@
     margin-bottom: 10px;
 }
 /*------------------------Footer------------------------*/
+
+
+/*-----------------------Media Queries-------------------------*/
+@media only screen and (max-width: 480px) {
+    .banner-paises {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .banner-paises img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .container-comidas {
+        padding: 10px;
+    }
+    
+    .comida {
+        width: 100%;
+        margin: 10px 0; 
+        font-size: 0.9em;
+    }
+    
+    .comida img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    
+    .titulocomida {
+        font-size: 1.5em; 
+    }
+    
+    .descricaocomida {
+        font-size: 0.9em;
+    }
+    
+    .valor {
+        font-size: 1em; 
+    }
+    
+    .AdicionarPedido {
+        font-size: 1em; 
+        padding: 8px 12px;
+    }
+}
+
+/*-----------------------Media Queries Fim-------------------------*/
