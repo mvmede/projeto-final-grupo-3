@@ -1,60 +1,3 @@
-/*----------------------------------------------------------HEADER----------------------------------------------------------*/
-
-* {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-
-
-header {
-    background-color: #ffffff;
-    color:#74A9DB;
-    padding: 10px 20px;
-    border-bottom: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    display: flex;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    position: relative;
-}
-
-.header-container {
-    font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
-    
-}
-
-.menu-header ul li {
-    display: inline-block;
-    margin-right: 40px;
-}
-
-.menu-header ul li a {
-    color: #636363;
-    text-decoration: none;
-}
-
-.fazerpedidos {
-    text-decoration: none;
-    border-radius: 8px;
-    border: 1px solid;
-    border-color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    font-size: medium;
-    padding: 8px 8px ;
-    padding-left: 32px;
-    padding-right: 32px;
-    font-weight: 600;
-    background-color: #74A9DB;
-}
-
 /*----------------------------------------------------------BODY----------------------------------------------------------*/
 
 a {
@@ -64,40 +7,31 @@ a {
 
 .Back_Button {
     position: relative;
-    left: calc(54%  - 550px);
+    left: calc(52.5% - 550px);
     top: 40px;
     font-size: 20px;
     color: #74A9DB;
     cursor: pointer;
     font-family: "Inter", sans-serif;
-    padding-left: 20px; 
+    padding-left: 20px;
     padding-right: 20px;
-    display: inline-block; 
-    
+    display: inline-block;
+ 
 }
 
 .Back_Button::before {
-    content: ""; 
+    content: "";
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: -5px;
-    transform: translateY(-50%); 
-    border-width: 8px 8px 8px 0; 
-    border-style: solid; 
+    transform: translateY(-50%);
+    border-width: 8px 8px 8px 8px;
+    border-style: solid;
     border-color: transparent #74A9DB transparent transparent;
 }
 
 .title-page {
-    padding-top: 80px;
-    color: #74A9DB;
-    font-family: "Inter";
-    font-size: 40px;
-    font-weight: 900;
-    text-align: center;
-}
-
-.title-page2 {
-    padding-top: 40px;
+    margin-top: 80px;
     color: #74A9DB;
     font-family: "Inter";
     font-size: 40px;
@@ -106,43 +40,44 @@ a {
 }
 
 .input-container {
-
     display: flex;
     justify-content: center;
     align-items: left;
     flex-wrap: wrap;
-    width: 1250px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     gap: 0px;
-}
-
-.input-text-name {
-    padding: 20px;
-}
-
-.input-container  p {
     font-family: "Inter";
     font-weight: normal;
-    padding-bottom: 8px;
 }
 
-.input-cidade,
-.input-bairro,
-.input-numero,
-.input-rua,
-.input-cep,
-.input-name,
-.input-cellphone,
-.input-email  {
+.input-text {
+    padding-top: 24px;
+}
+
+.input-text p {
+    padding-left: 10px;
+}
+
+#name,
+#cellphone,
+#email,
+#postalcode,
+#area,
+#road,
+#number,
+#city {
+    flex-wrap: wrap;
+    padding-left: 10px;
     width: 315px;
     height: 54px;
     border-radius: 8px;
     border: 2px solid #74A9DB;
-    margin: 10px; 
+    margin: 10px;
 }
 
-.button-container{
+.button-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,62 +85,59 @@ a {
     margin-bottom: 50px;
 }
 
-.advance {
+.advance
+
+/*Botão de Avançar*/
+    {
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 8px 8px ;
+    padding: 8px 8px;
     padding-left: 32px;
     padding-right: 32px;
     font-weight: 600;
     background-color: #74A9DB;
 }
 
-/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
 
-footer {
-    background-color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-}
+
+/*------------------------Footer------------------------*/
 
 .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
 }
 
-.menufooter ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
-.menufooter li {
-    display: inline-block;
-    margin-right: 40px;
-    font-size: 14px;
+.menufooter {
+    margin-top: 50px;
+}
+
+.menufooter ul li {
+    display: inline;
 }
 
 .menufooter ul li a {
-    color: #636363;
+    color: #000000;
     text-decoration: none;
-}
-
-.menufooter li:last-child {
-    margin-right: 0;
+    margin-right: 40px;
 }
 
 .social-icons {
-    margin-left: 20px;
+    margin-top: 35px;
     display: flex;
 }
 
@@ -213,17 +145,65 @@ footer {
     margin-left: 10px;
 }
 
-.social-icons img {
-    display: flex;
-}
-
 .creditos {
-    margin-top: 20px;
+    text-align: center;
     font-size: 14px;
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-family: "Inter";
+    padding-bottom: 30px;
+
 }
 
-.logo-footer {
-    margin-right: 50px;
+/*------------------------Footer------------------------*/
+
+
+
+/*--------------------------Mobile---------------------*/
+
+@media screen and (max-width:780px) {
+
+
+    .title-page {
+        margin-top: 60px;
+        color: #74A9DB;
+        font-family: "Inter";
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .input-container {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-wrap: wrap;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 0px;
+        font-family: "Inter";
+        font-weight: normal;
+    }
+
+    .input-container > div > input {
+        font-size: 16px;
+    }
+
+    .input-container > div > p {
+        font-size: 20px;
+    }
+
+    .advance {
+        text-decoration: none;
+        border-radius: 8px;
+        border: 1px solid;
+        border-color: #74A9DB;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        padding: 8px 8px;
+        width: 325px;
+        height: 50px;
+        font-weight: 600;
+        background-color: #74A9DB;
+    }
+
 }

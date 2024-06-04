@@ -1,4 +1,4 @@
-/*----------------------------------------------------------HEADER----------------------------------------------------------*/
+/*------------------------HEADER-----------------------*/
 
 * {
     background-color: #ffffff;
@@ -21,6 +21,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 .header-container {
@@ -56,81 +57,311 @@ header {
     background-color: #74A9DB;
 }
 
-/*----------------------------------------------------------BODY----------------------------------------------------------*/
+/*------------------------BODY-----------------------*/
 
-
-.Title_SAC {
-    margin-top: 200px;
+.title-SAC {
+    display: block;
+    margin-top: 130px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: bolder;
     text-align: left;
-    margin-left: 250px;
+    margin-left: 75px;
+    width: 1100px;
 }
 
-.Subtitle_SAC {
+.subtitle-SAC {
+    display: block;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: normal;
     text-align: left;
+    margin-top: 15px;
     margin-left: 0%;
+    width: 80%;
 }
 
-.Text_SAC {
-    color: #858585;
+.text-SAC {
+    display: block;
+    margin-bottom: 80px;
+    color: black;
     font-family: "Inter", sans-serif;
-    font-size: 80%;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400px;
     text-align: normal;
     margin-left: 0%;
+    width: 1100px;
 }
 
-/*----------------------------------------------------------FOOTER----------------------------------------------------------*/
-
-footer {
-    margin-top: 19px;
-    background-color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-}
-
-.footer-container {
-    
-    font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
+.main-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1100px;
+    gap: 30px;
+    justify-content: center;
     align-items: center;
 }
 
-.menufooter ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.child-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 800px;
+    height: 503px;
+    background-color: #a4cff5;
+    border-radius: 20px; 
+    margin-bottom: 40px;
+    gap: 20px;
 }
 
-.menufooter li {
-    display: inline-block;
-    margin-right: 40px;
-    font-size: 14px;
+.div0 {
+    display: block;
+    background-color: transparent;
+    color: #3873a6;
+    font-family: "Inter";
+    margin: 50px;
+    z-index: 1;
+}
+
+.div1 {
+    display: flex; 
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    color: #c4d6e7;           
+    font-weight: bold;       
+    font-size: 50px; 
+    background-color: #3873a6;
+    border-radius: 20px
+}
+
+.div2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    color: #c4d6e7;           
+    font-weight: bold;       
+    font-size: 50px; 
+    background-color: #3873a6;
+    border-radius: 20px; 
+}
+
+.div3 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 64px;
+    color: #c4d6e7;           
+    font-weight: bold;       
+    font-size: 50px; 
+    background-color: #00923F;
+    border-radius: 20px; 
+}
+
+.atendimento-title {
+    display: block;
+    text-align: center;
+    background-color: transparent; 
+    font-weight: bolder;
+}
+
+.fale-title {
+    display: block;
+    text-align: center;
+    background-color: transparent; 
+    font-weight: bolder;
+}
+
+.text0 {
+    display: block;
+    font-family: "Inter";
+    text-align: center;
+    font-size: 16px;
+    color: #3873a6;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.text1 {
+    display: block; 
+    align-items: center;
+    margin-left: 25px;
+    color: #c4d6e7;           
+    font-weight: bold;       
+    font-size: 30px; 
+    background-color: transparent;
+}
+
+.text2 {
+    display: block;
+    font-family: "Inter";
+    font-size: 16px;
+    color: #c4d6e7;           
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.text3 {
+    display: block;
+    align-items: center;
+    margin-left: 25px;
+    color: #c4d6e7;           
+    font-weight: 300;     
+    font-size: 16px; 
+    background-color: transparent;
+}
+
+.text4 {
+    display: block;
+    font-family: "Inter";
+    text-align: center;
+    font-size: 16px;
+    color: #3873a6;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.div4 {
+    display: flex; 
+    margin-top: 40px;
+    margin-left: 20px;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;          
+    font-weight: bold;       
+    font-size: 50px; 
+    background-color: #00923F;
+    border-radius: 20px; 
+    z-index: 1;
+}
+    
+
+.image1 {
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    margin-left: 170px;
+    flex-direction: column;
+}
+
+.image2 { 
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 170px;
+    flex-direction: column; 
+}
+
+.image3 { 
+    display: flex;
+    transform: translate(-50%, -50%);
+    width: 55%; 
+    height: auto;
+    margin-top: -35%;
+    margin-left: 10%;
+    z-index: 2; 
+    background-color: transparent;
+}
+
+/*-------------------BODY (MOBILE)---------------------*/
+
+@media screen and (max-width:780px) {
+
+    .title-SAC {
+        margin-top: 20%;
+        margin-left: 5%;
+        text-align: justify;
+        font-size: 35px;
+    }
+
+    .subtitle-SAC {
+        width: 40%;
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .text-SAC {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+     .main-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .child-container {
+        width: 450px;
+        margin-left: -60%;
+    }
+
+    .div4 {
+        margin-left: 0px;
+    }
+
+    .image1, .image2 {
+        width: 190px;
+    }
+
+    .image3 {
+        width: 45%;
+        margin-left: 16%;
+    }
+}
+
+/*------------------------Footer------------------------*/
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.menufooter {
+    margin-top: 50px;
+}
+
+.menufooter ul li {
+    display: inline;
 }
 
 .menufooter ul li a {
-    color: #636363;
+    color: #000000;
     text-decoration: none;
-}
-
-.menufooter li:last-child {
-    margin-right: 0;
+    margin-right: 40px;
 }
 
 .social-icons {
-    margin-left: 20px;
+    margin-top: 35px;
     display: flex;
 }
 
@@ -138,17 +369,65 @@ footer {
     margin-left: 10px;
 }
 
-.social-icons img {
-    display: flex;
-}
-
 .creditos {
-    margin-top: 20px;
+    text-align: center;
     font-size: 14px;
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-family: "Inter";
+    padding-bottom: 30px;
+
 }
 
-.logo-footer {
-    margin-right: 50px;
+/*------------------------Footer------------------------*/
+
+
+
+/*--------------------------Mobile---------------------*/
+
+@media screen and (max-width:780px) {
+
+
+    .title-page {
+        margin-top: 60px;
+        color: #74A9DB;
+        font-family: "Inter";
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .input-container {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-wrap: wrap;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 0px;
+        font-family: "Inter";
+        font-weight: normal;
+    }
+
+    .input-container > div > input {
+        font-size: 16px;
+    }
+
+    .input-container > div > p {
+        font-size: 20px;
+    }
+
+    .advance {
+        text-decoration: none;
+        border-radius: 8px;
+        border: 1px solid;
+        border-color: #74A9DB;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        padding: 8px 8px;
+        width: 325px;
+        height: 50px;
+        font-weight: 600;
+        background-color: #74A9DB;
+    }
+
 }

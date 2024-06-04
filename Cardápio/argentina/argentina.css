@@ -9,6 +9,10 @@ body, html {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*------------------------HEADER------------------------*/
 
 
@@ -18,7 +22,7 @@ body, html {
     justify-content: center;
     font-family: "Inter", sans-serif;
     gap: 10px;
-    border-bottom: 12px solid ;
+    border-bottom: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -28,7 +32,7 @@ body, html {
     margin-top: 40px;
 }
 
-.menu-header ul li{
+.menu-header ul li {
     display: inline;
     margin-right: 40px;
 
@@ -56,6 +60,7 @@ body, html {
     background-color: #74A9DB;
     color: #fff;
 }
+
 /*------------------------HEADER------------------------*/
 
 /*------------------------Banner Países------------------------*/
@@ -67,6 +72,7 @@ body, html {
     margin: 0;
     padding: 0;
 }
+
 /*------------------------Banner Países------------------------*/
 
 /*------------------------Bucas por Países------------------------*/
@@ -101,10 +107,12 @@ body, html {
     padding-right: 30px;
     padding-left: 30px;
 }
+
 .paises-container p a {
     text-decoration: none;
     color: inherit;
 }
+
 /*------------------------Bucas por Países------------------------*/
 
 /*------------------------Comidas Container------------------------*/
@@ -126,8 +134,8 @@ body, html {
 
 @media screen and (max-width: 1100px) {
     .container-comidas .comida {
-        width: 100%; 
-        margin: 20px auto; 
+        width: 100%;
+        margin: 20px auto;
     }
 }
 
@@ -157,7 +165,7 @@ body, html {
     border: none;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 10px 10px ;
+    padding: 10px 10px;
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 600;
@@ -169,25 +177,32 @@ body, html {
     background-color: #74A9DB;
     color: #fff;
 }
+
 /*------------------------Comidas Container------------------------*/
 
 /*------------------------Footer------------------------*/
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-family: "Inter", sans-serif;
-    border-top: 12px solid ;
+    border-top: 12px solid;
     border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
     gap: 10px;
     padding-top: 10px;
 }
 
-.menufooter{
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.menufooter {
     margin-top: 50px;
 }
 
-.menufooter ul li{
+.menufooter ul li {
     display: inline;
 }
 
@@ -210,12 +225,11 @@ body, html {
     text-align: center;
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    margin-bottom: 10px;
+    padding-bottom: 30px;
+
 }
+
 /*------------------------Footer------------------------*/
-
-
-/*-----------------------Media Queries-------------------------*/
 @media only screen and (max-width: 480px) {
     .banner-paises {
         width: 100%;

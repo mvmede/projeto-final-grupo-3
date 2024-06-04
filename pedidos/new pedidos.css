@@ -1,0 +1,464 @@
+
+* {
+
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #74A9DB;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+
+.conteiner {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+header {
+    background-color: #ffffff;
+    color: #74A9DB;
+    border-bottom: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    display: flex;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: relative;
+}
+
+.header-container {
+    font-family: "Inter";
+    display: inline-flex;
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.menu-header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-header ul li a {
+    color: #636363;
+    text-decoration: none;
+}
+
+.fazerpedidos {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+}
+
+.button-back {
+    text-align: center;
+    position: relative;
+    color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    margin-top: 30%;
+    left: -115%;
+    transform: translateX(-50%);
+}
+
+.button-back::before {
+    content: "";
+    position: absolute;
+    transform: translateY(-50%);
+    border-width: 8px 8px 8px 0;
+    border-style: solid;
+    border-color: transparent #74A9DB transparent transparent;
+    left: 5rem;
+    top: 50%;
+}
+
+.title{
+
+    text-align: center;
+    color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    margin-top: 15%;
+}
+
+.inside{
+
+    align-items: center;
+    
+
+}
+
+.order1{
+
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.dish1-title{
+    
+    color: #74A9DB;
+    font-size: 30px;
+    display: flex;
+    margin-left: -25%;
+    
+}
+
+.desc1{
+    
+ 
+    font-size: 10px;
+    margin-top: 8%;
+    margin-left: -16%;
+
+}
+
+.button-remov1{
+
+   
+    margin-top: 8%;
+    margin-left:8%; 
+
+}
+
+#counter1 {
+    
+   
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 7%;
+    margin-left: 7%;
+
+}
+
+#counter1 div {
+    
+    display: flex;
+    align-items: center;
+}
+
+#value1 {
+    font-size: 1rem;
+    min-width: 4rem;
+    text-align: center;
+    border-top: groove;
+    border-bottom: groove;
+    border-color: #74A9DB;
+}
+
+button {
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+    padding: 0;
+    margin: 0;
+}
+
+.count-button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: #74A9DB;
+}
+
+#minus1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+#plus1 {
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.price1{
+
+   
+    color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    margin-top: 7.5%;
+    margin-left: 5%;
+  
+}
+
+.img-dish1{
+ 
+    margin-left:  10%;
+}
+
+.center-line {
+
+    height: 1px;
+    background-color: #74A9DB;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: -15%;
+    margin-right: -10%;
+
+}
+
+.order2{
+
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.dish2-title{
+    
+    color: #74A9DB;
+    font-size: 30px;
+    display: flex;
+    margin-left: -25%;
+    
+}
+
+.desc2{
+    
+ 
+    font-size: 10px;
+    margin-top: 8%;
+    margin-left: -25%;
+
+}
+
+.button-remov2{
+
+   
+    margin-top: 8%;
+    margin-left:5%; 
+
+}
+
+#counter2 {
+    
+   
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 7%;
+    margin-left: 7%;
+
+}
+
+#counter2 div {
+    
+    display: flex;
+    align-items: center;
+}
+
+#value2 {
+    font-size: 1rem;
+    min-width: 4rem;
+    text-align: center;
+    border-top: groove;
+    border-bottom: groove;
+    border-color: #74A9DB;
+}
+
+button {
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+    padding: 0;
+    margin: 0;
+}
+
+.count-button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: #74A9DB;
+}
+
+#minus2 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+#plus2 {
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.price2{
+
+   
+    color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    margin-top: 7.5%;
+    margin-left: 5%;
+  
+}
+
+.img-dish2{
+ 
+    margin-left:  10%;
+}
+
+.final-line {
+
+    height: 1px;
+    background-color: #74A9DB;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: -15%;
+    margin-right: -10%;
+
+}
+
+
+    
+
+
+@media (max-width: 768px) {
+    
+    .button-back {
+        margin-top: 20%;
+        text-align: center;
+        left: 50%;
+    }
+
+    
+    .order1{
+        
+        
+        flex-direction: column;
+        
+    }
+    
+    
+    .dish1-title{
+        
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    .desc1{
+
+        display: none;
+    }
+
+    .button-remov1{
+
+        text-align: center;
+        margin-top: 6%;
+        margin-left: -16%;
+        
+       
+    }
+
+    #counter1 {
+        text-align: center;
+        margin-top: 5%;
+        margin-left:27%;
+        
+    }
+
+    .price1{
+        
+     margin-top: 20%;
+
+    }
+
+    .img-dish1{
+
+        margin-top: -15%;
+        margin-left: 40%;
+    }
+
+    .order2{
+        
+        
+        flex-direction: column;
+        
+    }
+    
+    
+    .dish2-title{
+        
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    .desc2{
+
+        display: none;
+    }
+
+    .button-remov2{
+
+        text-align: center;
+        margin-top: 6%;
+        margin-left: -16%;
+        
+       
+    }
+
+    #counter2 {
+        text-align: center;
+        margin-top: 5%;
+        margin-left:27%;
+        
+    }
+
+    .price2{
+        
+     margin-top: 20%;
+
+    }
+
+    .img-dish2{
+
+        margin-top: -15%;
+        margin-left: 40%;
+    }
+
+}
