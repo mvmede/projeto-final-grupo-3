@@ -1,102 +1,55 @@
 * {
-
-    background-color: #ffffff;
     margin: 0;
     padding: 0;
-
-
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
-a {
-
-    text-decoration: none;
-    color: #74A9DB;
-
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-body {
-    
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-    
-}
-
-.container {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-
-
-   
-
-}
-
-header {
-
-    background-color: #ffffff;
-    color: #74A9DB;
-    padding: 10px 20px;
-    border-bottom: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-
-}
+/*------------------------HEADER------------------------*/
 
 .header-container {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    gap: 10px;
+    border-bottom: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu-header {
+    margin-top: 40px;
 }
 
 .menu-header ul li {
-
-    display: inline-block;
+    display: inline;
     margin-right: 40px;
 
 }
 
 .menu-header ul li a {
-
     color: #636363;
     text-decoration: none;
-
 }
 
 .fazerpedidos {
-
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 8px 8px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 8px 32px;
     font-weight: 600;
     background-color: #74A9DB;
+}
 
-
+.fazerpedidos a {
+    text-decoration: none;
+    background-color: #74A9DB;
+    color: #fff;
 }
 
 /*------------------------HEADER------------------------*/
@@ -294,198 +247,6 @@ button {
 
 }
 /*------------------------Footer------------------------*/
-/*------------------------------------------mobile---------------------------------------------------*/
 
-@media screen and (max-width: 780px) {
-    
-    .inside {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
 
-    .desc1, .desc2{
-
-        display: none;
-    }
-
-    .button-back {
-        
-        text-align: center;
-        margin-left: 810px;
-        margin-top: 300px;
-
-    }
-
-    .title {
-        margin: 10px 0;
-        text-align: center;
-        margin-left: 810px;
-    }
-
-    .dish1-title{
-        margin-left: 780px;
-        margin-top: 100px;
-
-    }
-
-    .dish2-title{
-        margin-left: 830px;
-        margin-top: 10px;
-
-    }
-
-    .order1, .order2 {
-        margin: 20px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    .dish1, .dish2 {
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .button-remov1 {
-        margin-top: 300px;
-        text-align: center;
-        margin-right: 800px;
-       
-    }
-    .button-remov2 {
-        margin-top: 220px;
-        text-align: center;
-        margin-right: 800px;
-    }
-
-    #counter1 {
-        margin: 10px 0;
-        display: flex;
-        justify-content: center;
-        margin-left: 785px;
-        margin-top: -45px;
-    }
-    #counter2 {
-        margin: 10px 0;
-        display: flex;
-        justify-content: center;
-        margin-left: 865px;
-        margin-top: -45px;
-    }
-
-    .price1 {
-        margin-top: -230px;
-        text-align: center;
-        margin-right: 825px;
-    }
-    .price2 {
-        margin-top: -220px;
-        text-align: center;
-        margin-right: 800px;
-    }
-    .img-dish1 {
-        margin: 20px 0;
-        text-align: center;
-        margin-top: -485px;
-        
-    }
-
-    .img-dish2 {
-        margin: 20px 0;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .center-line {
-        width: 90%;
-        margin: 20px auto;
-        margin-top: 50px;
-    }
-    .final-line {
-        width: 90%;
-        margin: 20px auto;
-        margin-top: 60px;
-    }
-
-    .subtotal, .final-price {
-        text-align: center;
-        margin: 20px 0;
-    }
-
-    .button-advance {
-        margin: 20px auto;
-        display: block;
-        text-align: center;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .social-icons {
-        justify-content: center;
-    }
-    .header-container{
-        margin: 0 20vw;
-        gap: 30px;
-    }
-
-    .menu-header ul {
-        font-size: 18px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px 0px;
-        text-align: center;
-    }
-
-    
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        font-family: "Inter", sans-serif;
-        border-top: 12px solid;
-        border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-        gap: 0;
-        padding-top: 10px;
-        align-items: center;
-        width: 80%vw;
-    }
-
-    .menufooter ul {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 18px;
-    }
-
-    .menufooter ul li a {
-        margin-right: 0px;
-    }
-
-    .social-icons {
-        align-items: center;
-    }
-
-    .logo-footer {
-        padding-top: 20px;
-        padding-right: 0;
-    }
-
-    .creditos {
-        text-align: center;
-        font-size: 16px;
-        font-family: "Inter";
-        margin: 10px 20px;
-    }
-
-    .Back_Button {
-        left: 20px;
-    }
-}
 

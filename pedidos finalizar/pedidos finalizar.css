@@ -1,56 +1,32 @@
 * {
-    background-color: #ffffff;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: #74A9DB;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-a {
-    text-decoration: none;
-    color: #74A9DB;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-}
-
-header {
-    background-color: #ffffff;
-    color: #74A9DB;
-    padding: 10px 20px;
-    border-bottom: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
+/*------------------------HEADER------------------------*/
 
 .header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    gap: 10px;
+    border-bottom: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu-header {
+    margin-top: 40px;
 }
 
 .menu-header ul li {
-    display: inline-block;
+    display: inline;
     margin-right: 40px;
+
 }
 
 .menu-header ul li a {
@@ -65,212 +41,94 @@ header {
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 8px 8px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 8px 32px;
     font-weight: 600;
     background-color: #74A9DB;
 }
 
-/*----------------------------------------------------------BODY----------------------------------------*/
-
-.button-back {
-    margin-top: 200px;
-    margin-left: 220px;
-    margin-right: 1000px;
-    color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    position: relative;
-   }
-
-.button-back::before {
-    content: ""; 
-    position: absolute;
-    margin-top: 10px;
-    margin-left: -15px;
-    transform: translateY(-50%);
-    border-width: 8px 8px 8px 0;
-    border-style: solid; 
-    border-color: transparent #74A9DB transparent transparent;     
-   }
-
-.title{
-    text-align: center;
-    position: absolute;
-    color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    margin-top: 10px;
-    margin-left: 530px;
-    margin-right: 100px;
-   }
-
-.order1{
-    margin-top: -300px;
-    font-family: "Inter", sans-serif;
-   }
-
-.dish1-title{
-    text-align: center;
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 400px;
-    margin-right:10px;
-    color: #74A9DB; 
-    font-size: 30px;    
-   }
-   
-.desc1 {
-    font-size: 10px; 
-    color: black;
-    margin-left: 200px;
-    margin-top: 450px;
-   }
-
-.button-remov1{
-    margin-left: 505px;
-    margin-top: -60px;
-    text-decoration: underline;
-    cursor: pointer;
-    color: black;
-    font-family: "Inter", sans-serif;
-    }    
-
-    #counter1 {
-
-
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        position: absolute;
-        margin-left: 600px;
-        margin-top: -45px;
-        background-color: #74A9DB;
-        border-radius: 8px;
-    }
-    
-    #counter1 div {
-        display: flex;
-        align-items: center;
-    }
-    
-    #value1 {
-        font-size: 1rem;
-        min-width: 4rem;
-        text-align: center;
-        border-top: groove;
-        border-bottom: groove;
-        border-color: #74A9DB;
-    }
-    
-    button {
-        border: none;
-        font-weight: 500;
-        cursor: pointer;
-        transition: opacity .3s;
-    }
-    
-    .count-button {
-        width: 2rem;
-        height: 2rem;
-        font-size: 1rem;
-        background-color: #74A9DB;
-    }
-    
-    #minus1 {
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-    }
-    
-    #plus1 {
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-    
-
-.price1{
-    margin-top: -40px;
-    margin-left: 795px;
-    margin-bottom: 500px;
-    color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    }
-
-.img-dish1{
-    margin-top: -570px;
-    margin-left: 965px;
-    margin-bottom: 10px;
-    }
-
-.center-line{
-    height: 2px;
+.fazerpedidos a {
+    text-decoration: none;
     background-color: #74A9DB;
-    margin-top: 60px;
-    margin-left: 200px;
-    margin-right: 150px; 
-    margin-bottom: 0px;
-    }
-
-.order2{
-    
-    font-family: "Inter", sans-serif;
-    
+    color: #fff;
 }
 
-.dish2-title {
-    
-    
+/*------------------------HEADER------------------------*/
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+h1 {
     text-align: center;
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 40px;
-    margin-right: 50px;
-    color: #74A9DB;
-    font-size: 30px;
-   
+    color: #4a90e2;
 }
 
-.desc2 { 
-    font-size: 10px; 
-    color: black;
-    margin-top: 100px;
-    margin-left: 200px;
-   }
-
-.button-remov2 {
-
-    margin-top: -35px;
-    margin-left: 506px;
-    text-decoration: underline;
-    cursor: pointer;
-    color: black;
-    font-family: "Inter", sans-serif;
-   }
-
-   #counter2 {
-
-
-    border-radius: 8px;
+.order-item {
     display: flex;
-    align-items:center;
-    position: absolute;
-    margin-left: 600px;
-    margin-top: -45px;
-    background-color: #74A9DB;
-    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4a90e2;
+    padding: 20px 0;
+    gap: 100px;
 }
 
-#counter2 div {
+.item-details {
+    width: 424px;
+    height: 104px;
+}
+
+.item-details h2 {
+    color: #4a90e2;
+    margin: 0 0 10px;
+}
+
+.item-details p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.item-controls {
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
-#value2 {
+.remove-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.counter1{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  
+}
+
+#value1 {
     font-size: 1rem;
     min-width: 4rem;
     text-align: center;
     border-top: groove;
     border-bottom: groove;
     border-color: #74A9DB;
+    padding: 0 1rem;
+    margin-left:-5px ;
+   
 }
 
 button {
@@ -287,360 +145,66 @@ button {
     background-color: #74A9DB;
 }
 
-#minus2 {
+#minus1 {
+
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-#plus2 {
+#plus1 {
+
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.price2{
-    margin-top: -35px;
-    margin-left: 795px;
-    color: #74A9DB;
+
+
+/*------------------------Footer------------------------*/
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    }
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
+}
 
-.img-dish2{
-    margin-top: -70px;
-    margin-left: 965px;
-    }
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
+}
 
-.final-line{
-    height: 2px;
-    background-color: #74A9DB;
-    margin-left: 200px;
-    margin-right: 150px; 
-    margin-top: 60px;
-    }
-
-.down {
+.menufooter {
     margin-top: 50px;
-    font-family: "Inter", sans-serif;
 }
 
-.add-order {
-    border-radius: 8px;
-    border: 1px solid;
-    border-color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    font-size: medium;
-    padding: 8px 8px;
-    padding-left: 32px;
-    padding-right: 32px;
-    font-weight: 600;
-    margin-left: 535px;
-    margin-bottom: 50px;
-    animation-duration: 1s;
-    animation-name: appear;
-    animation-iteration-count: infinite;
+.menufooter ul li {
+    display: inline;
 }
 
-.final-dish1,
-.final-price-dish1,
-.final-dish2,
-.final-price-dish2 {
-
-    display: inline-block;
-           
-    } 
-
-.final1 {
-
-    margin-top: -50px;
-    
-
-}
-
-.final-dish1 {
-            
-    margin-left: 200px;
-           
-    }
-        
-.final-price-dish1 {
-            
-    margin-left: 765px;
-            
-    }
-
-.final2 {
-
-
-    margin-top: 30px;
-
-}
-
-.final-dish2 {
-            
-    margin-left: 200px;
-           
-    }
-        
-.final-price-dish2 {
-
-    margin-left: 712px;
-
-
-}
-
-.subtotal {
-
-    margin-top: 50px;
-    margin-left: 200px;
-    
-
-}
-
-.final-price{
-
-        
-        
-    margin-top: -20px;
-    margin-left: 1045px;
-
-}
-
-.delivery-fee {
-
-    margin-top: 30px;
-
-}
-
-.delivery,.fee {
-
-
-    display: inline-block;
-
-}
-
-.delivery {
-
-    margin-left: 200px;
-
-}
-
-.fee {
-
-    margin-left: 708px;
-
-}
-
-
-.total {
-
-    font-family: "Inter", sans-serif;
-    color: #74A9DB;
-    margin-top: 50px;
-
-}
-
-.text-total,.price-total {
-
-    display: inline-block;
-
-}
-
-.text-total {
-
-    margin-left:200px;
-
-}
-
-.price-total {
-
-    margin-left: 765px;
-
-}
-
-
-.button-whatsapp {
-
+.menufooter ul li a {
+    color: #636363;
     text-decoration: none;
-    border-radius: 8px;
-    border: 1px solid;
-    border-color: #74A9DB;
+    margin-right: 40px;
+}
+
+.social-icons {
+    margin-top: 35px;
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.creditos {
+    text-align: center;
+    font-size: 14px;
     font-family: "Inter", sans-serif;
-    font-size: medium;
-    padding: 8px 8px;
-    padding-left: 32px;
-    padding-right: 32px;
-    font-weight: 600;
-    background-color: #74A9DB;
-    margin-top: 50px;
-    margin-left: 500px;
-    margin-bottom: 50px;
-       
-           
-    }
-
- 
- 
-
-/*-----------------------------------------mobile----------------------------*/
-
-@media screen and (max-width: 780px) {
-    
-    .body{
-
-        width: 100vw;
-        overflow-x: hidden;
-        
-    }
-    
-    .inside {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .desc1, .desc2{
-
-        display: none;
-    }
-
-    .button-back {
-        
-        text-align: center;
-        margin-left: 810px;
-        margin-top: 300px;
-
-    }
-
-    .title {
-        margin: 10px 0;
-        text-align: center;
-        margin-left: 810px;
-    }
-
-    .dish1-title{
-        margin-left: 860px;
-        margin-top: 100px;
-
-    }
-
-    .dish2-title{
-        margin-left: 830px;
-        margin-top: 10px;
-
-    }
-
-    .order1, .order2 {
-        margin: 20px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    .dish1, .dish2 {
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .button-remov1 {
-        margin-top: 300px;
-        text-align: center;
-        margin-right: 800px;
-       
-    }
-    .button-remov2 {
-        margin-top: 220px;
-        text-align: center;
-        margin-right: 800px;
-    }
-
-    #counter1 {
-        margin: 10px 0;
-        display: flex;
-        justify-content: center;
-        margin-left: 865px;
-        margin-top: -45px;
-    }
-    #counter2 {
-        margin: 10px 0;
-        display: flex;
-        justify-content: center;
-        margin-left: 865px;
-        margin-top: -45px;
-    }
-
-    .price1 {
-        margin-top: -220px;
-        text-align: center;
-        margin-right: 825px;
-    }
-    .price2 {
-        margin-top: -220px;
-        text-align: center;
-        margin-right: 800px;
-    }
-    .img-dish1 {
-        margin: 20px 0;
-        text-align: center;
-        margin-top: -480px;
-        
-    }
-
-    .img-dish2 {
-        margin: 20px 0;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .center-line {
-        width: 100vw;
-        margin: 20px auto;
-        margin-top: 70px;
-    }
-    .final-line {
-        width: 100vw;
-        margin: 20px auto;
-        margin-top: 60px;
-    }
-
-    .add-order {
-       
-        margin-left: 820px;
-        margin-bottom: 50px;
-       
-    }
-
-    
-
-
-    .final-dish1, .final-dish2, .delivery {
-            
-        margin-left: 750px;
-        }
-
-        .subtotal {
-
-            margin-top: 50px;
-            margin-left: 750px;
-            
-        
-        }
-        
-        .final-price-dish1, .final-price-dish2, .price-total, .fee {
-            margin-left: 1000px;
-            margin-top: -50px;
-           
-            }
-
-       
-
-    
-    .button-whatsapp {
-
-        
-        margin-top: 50px;
-        margin-left: 0px;
-        margin-bottom: 50px;
-           
-               
-        }
+    padding-bottom: 30px;
 
 }
+/*------------------------Footer------------------------*/
