@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pedidos finalizar.css">
-    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="../header_footer.css">
     <title>A DivisA</title>
     <link rel="icon" href="./Imagens/Favicon.png">
     <style>
@@ -24,19 +24,18 @@
 
     <header>
         <div class="header-container">
-
-            <div class="logo-footer">
-                <a href=""><img src="../../Imagens/logo.svg" alt="A Divisa"></a>
+            <div class="logo-header">
+                <a href="../index.html"><img src="../Imagens/logofooter.png" alt="A Divisa"></a>
             </div>
             <div class="menu-header">
                 <ul>
-                    <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../../Cardápio/cardapio.html" style="color: #009540;font-weight: 800; ">Cardápio</a>
-                    </li>
-                    <li><a href="../../Sobre nós/sobrenos.html">Sobre nós</a></li>
-                    <li><a href="../../Contato/contato.html">Contato</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../Cardápio/cardapio.html">Cardápio</a></li>
+                    <li><a href="../Sobre nós/sobrenos.html">Sobre nós</a></li>
+                    <li><a href="../Contato/contato.html">Contato</a></li>
                     <button class="fazerpedidos">
-                        <a href="../../Fazer pedido/fazerpedidos.html">Pedidos</a>
+                        <a href="../pedidos/pedidos.html"
+                            style="text-decoration: none; color: #fff; background-color: #74A9DB;"> Pedidos </a>
                     </button>
                 </ul>
             </div>
@@ -46,7 +45,7 @@
     <!----------------------------HEADER---------------------------->
 
     <div class="container">
-        <a href="../Cardápio/" class="back-link">◀ Voltar</a>
+        <a href="../cadastroentrega/cadastroentrega.html" class="back-link">◀ Voltar</a>
         <h1>MEUS PEDIDOS</h1>
 
         <div class="order-item">
@@ -116,9 +115,31 @@
             </div>
         </div>
 
-        
+        <div class="subtotal">
+            <h3>Subtotal</h3>
+            <h3>R$ 70,00</h3>
+        </div>
 
-         <!----------------------------------------CONTAINER-FOOTER---------------------------------------->
+        <div class="entrega">
+            <h3>Entrega</h3>
+            <h3>R$ 10,00</h3>
+        </div>
+
+        <div class="total">
+            <h3>Total</h3>
+            <h3>R$ 80,00</h3>
+        </div>
+
+        <div class="finish">
+            <button class="button-finish">
+                <a href="../cadastroentrega/cadastroentrega.html"
+                    style="text-decoration: none; color: #fff; background-color: #74A9DB;">Finalizar e ir para o Whatsapp</a>
+            </button>
+        </div>
+
+    </div>
+
+    <!----------------------------------------CONTAINER-FOOTER---------------------------------------->
 
     <footer>
         <div class="footer-container">
@@ -130,9 +151,9 @@
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="../Cardápio/cardapio.html"></i>Cardápio</a></li>
                     <li><a href="../Sobre nós/sobrenos.html"></i>Sobre nós</a></li>
-                    <li><a href="../pedidos/pedidos.html"></i>Fazer pedido</a></li>
+                    <li><a href="../Fazer pedido/fazerpedidos.html"></i>Fazer pedido</a></li>
                     <li><a href="../Contato/contato.html"></i>Contato</a></li>
-                    <li><a href="../sac/sac.html"></i>SAC</a></li>
+                    <li><a href="../Sac/sac.html"></i>SAC</a></li>
                 </ul>
             </div>
             <div class="social-icons">
@@ -145,7 +166,8 @@
         </div>
     </footer>
 
-        <script src="js/scipt.js"></script>
+    <script src="js/scipt.js"></script>
 
 </body>
+
 </html>
