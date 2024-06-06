@@ -1,207 +1,122 @@
 * {
-
-    background-color: #ffffff;
     margin: 0;
     padding: 0;
-
-
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
-a {
-
-    text-decoration: none;
-    color: #74A9DB;
-
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-body {
-    
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-    
-}
-
-.container {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-
-
-   
-
-}
-
-header {
-
-    background-color: #ffffff;
-    color: #74A9DB;
-    padding: 10px 20px;
-    border-bottom: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-
-}
+/*------------------------HEADER------------------------*/
 
 .header-container {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Inter", sans-serif;
-    max-width: auto;
-    display: inline-flex;
-    margin: 0 auto;
-    justify-content: flex-start;
-    align-items: center;
+    gap: 10px;
+    border-bottom: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu-header {
+    margin-top: 40px;
 }
 
 .menu-header ul li {
-
-    display: inline-block;
+    display: inline;
     margin-right: 40px;
 
 }
 
 .menu-header ul li a {
-
     color: #636363;
     text-decoration: none;
-
 }
 
 .fazerpedidos {
-
     text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    padding: 8px 8px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 8px 32px;
     font-weight: 600;
     background-color: #74A9DB;
-
-
 }
 
-/*----------------------------------------------------------BODY----------------------------------------*/
-
-
-
-
-.button-back {
-    
-    margin-top:20%; 
-    margin-left:15%;
-    color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    position: relative;
-    cursor: pointer;
-
-}
-
-.button-back::before {
-
-    content: "";
-    position: absolute;
-    margin-top: 10px;
-    margin-left: -15px;
-    transform: translateY(-50%);
-    border-width: 8px 8px 8px 0;
-    border-style: solid;
-    border-color: transparent #74A9DB transparent transparent;
-
-}
-
-
-.title {
-
-    text-align: center;
-    color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    margin-top: 2%;
-   
-
-}
-
-.order1 {
-
-    margin-top:-20%;
-    font-family: "Inter", sans-serif;
-
-}
-
-
-
-.dish1-title {
-
-
-    text-align: center;
-    position: relative;
-    margin-left: -63%;
-    margin-top: 30%;
-    color: #74A9DB;
-    font-size: 30px;
-
-}
-
-
-.desc1 {
-
-    font-size: 10px;
-    color: black;
-    margin-left: 14%;
-    margin-top: 1.5%;
-    
-
-
-}
-
-
-
-.button-remov1 {
-
-
-
-    margin-left: 39%;
-    margin-top: -3%;
-    text-decoration: underline;
-    cursor: pointer;
-    color: black;
-    font-family: "Inter", sans-serif;
-
-}
-
-#counter1 {
-
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin-left: 47%;
-    margin-top: -3%;
+.fazerpedidos a {
+    text-decoration: none;
     background-color: #74A9DB;
-    border-radius: 8px;
+    color: #fff;
 }
 
-#counter1 div {
-    
+/*------------------------HEADER------------------------*/
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4a90e2;
+    padding: 20px 0;
+    gap: 100px;
+}
+
+.item-details {
+    width: 424px;
+    height: 104px;
+}
+
+.item-details h2 {
+    color: #4a90e2;
+    margin: 0 0 10px;
+}
+
+.item-details p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.item-controls {
     display: flex;
     align-items: center;
+    gap: 50px;
+}
+
+.remove-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.counter1{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  
 }
 
 #value1 {
@@ -211,6 +126,9 @@ header {
     border-top: groove;
     border-bottom: groove;
     border-color: #74A9DB;
+    padding: 0 1rem;
+    margin-left:-5px ;
+   
 }
 
 button {
@@ -218,8 +136,6 @@ button {
     font-weight: 500;
     cursor: pointer;
     transition: opacity .3s;
-    padding: 0;
-    margin: 0;
 }
 
 .count-button {
@@ -230,9 +146,9 @@ button {
 }
 
 #minus1 {
+
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
 }
 
 #plus1 {
@@ -241,195 +157,35 @@ button {
     border-bottom-right-radius: 10px;
 }
 
+.item-price {
+    color: #333;
+    margin-left: 20px;
+    font-size: 18px;
+    white-space: nowrap;
+}
 
-
-
-
-.price1 {
-
-    margin-top: -40px;
-    margin-left: 785px;
-    margin-left: 805px;
-    margin-bottom: 500px;
+.item-price { 
+    
+    margin-right: 25px;
     color: #74A9DB;
-    font-family: "Inter", sans-serif;
-
-}
-
-.img-dish1 {
-
-    margin-top: -570px;
-    margin-left: 953px;
-    margin-left: 970px;
-    margin-bottom: 10px;
-
-
-}
-
-.center-line {
-
-    height: 1px;
-    background-color: #74A9DB;
-    margin-top: 60px;
-    margin-left: 180px;
-    margin-right: 155px;
-    margin-right: 170px;
-    margin-bottom: 0px;
-
-}
-
-.order2 {
-
-    font-family: "Inter", sans-serif;
-
-
-}
-
-
-
-.dish2-title {
-
-
-    text-align: center;
-    position: absolute;
-    margin-left: 200px;
-    margin-left: 180px;
-    margin-top: 40px;
-    margin-right: 50px;
-    color: #74A9DB;
-    font-size: 30px;
-
-}
-
-.desc2 {
-
-    font-size: 10px;
-    color: black;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-left: 180px;
-}
-
-.button-remov2 {
-
-    margin-top: -35px;
-    margin-left: 506px;
-    text-decoration: underline;
-    cursor: pointer;
-    color: black;
-    font-family: "Inter", sans-serif;
-
-
-}
-
-#counter2 {
-
-
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    margin-left: 605px;
-    margin-top: -45px;
-    background-color: #74A9DB;
-    border-radius: 8px;
-}
-
-#counter2 div {
-    display: flex;
-    align-items: center;
-}
-
-#value2 {
-    font-size: 1rem;
-    min-width: 4rem;
-    text-align: center;
-    border-top: groove;
-    border-bottom: groove;
-    border-color: #74A9DB;
-}
-
-button {
-    border: none;
-    font-weight: 500;
-    cursor: pointer;
-    transition: opacity .3s;
-}
-
-.count-button {
-    width: 2rem;
-    height: 2rem;
-    font-size: 1rem;
-    background-color: #74A9DB;
-}
-
-#minus2 {
-
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-}
-
-#plus2 {
-
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-
-
-}
-
-.price2 {
-
-    margin-top: -35px;
-    margin-left: 805px;
-    color: #74A9DB;
-    font-family: "Inter", sans-serif;
-
-}
-
-.img-dish2 {
-
-    margin-top: -70px;
-    margin-left: 970px;
-    margin-right: 175px;
-
-
-}
-
-.final-line {
-
-    height: 1px;
-    background-color: #74A9DB;
-    margin-left: 200px;
-    margin-left: 180px;
-    margin-right: 170px;
-    margin-top: 60px;
-
 }
 
 .subtotal {
-
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
     color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    margin-top: 50px;
-    margin-left: 20px;
-
-    margin-left: 180px;
 }
 
-.final-price {
+.advance{
 
-    color: #74A9DB;
-    font-family: "Inter", sans-serif;
-    margin-top: -20px;
-    margin-left: 865px;
-
-    margin-left: 1040px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
 }
 
 .button-advance {
 
-    text-decoration: none;
     border-radius: 8px;
     border: 1px solid;
     border-color: #74A9DB;
@@ -438,15 +194,9 @@ button {
     padding: 8px 8px;
     padding-left: 32px;
     padding-right: 32px;
-    font-weight: 600;
     background-color: #74A9DB;
-    margin-top: 50px;
-    margin-left: 430px;
-    margin-left: 600px;
-    margin-bottom: 40px;
+    
 }
-
-
 
 /*------------------------Footer------------------------*/
 
@@ -497,198 +247,3 @@ button {
 
 }
 /*------------------------Footer------------------------*/
-/*------------------------------------------mobile---------------------------------------------------*/
-
-@media screen and (max-width: 780px) {
-    
-    .inside {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .desc1, .desc2{
-
-        display: none;
-    }
-
-    .button-back {
-        
-        text-align: center;
-        margin-left: 810px;
-        margin-top: 300px;
-
-    }
-
-    .title {
-        margin: 10px 0;
-        text-align: center;
-        margin-left: 810px;
-    }
-
-    .dish1-title{
-        margin-left: 780px;
-        margin-top: 100px;
-
-    }
-
-    .dish2-title{
-        margin-left: 830px;
-        margin-top: 10px;
-
-    }
-
-    .order1, .order2 {
-        margin: 20px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    .dish1, .dish2 {
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .button-remov1 {
-        margin-top: 300px;
-        text-align: center;
-        margin-right: 800px;
-       
-    }
-    .button-remov2 {
-        margin-top: 220px;
-        text-align: center;
-        margin-right: 800px;
-    }
-
-    #counter1 {
-        margin: 10px 0;
-        display: flex;
-        justify-content: center;
-        margin-left: 785px;
-        margin-top: -45px;
-    }
-    #counter2 {
-        margin: 10px 0;
-        display: flex;
-        justify-content: center;
-        margin-left: 865px;
-        margin-top: -45px;
-    }
-
-    .price1 {
-        margin-top: -230px;
-        text-align: center;
-        margin-right: 825px;
-    }
-    .price2 {
-        margin-top: -220px;
-        text-align: center;
-        margin-right: 800px;
-    }
-    .img-dish1 {
-        margin: 20px 0;
-        text-align: center;
-        margin-top: -485px;
-        
-    }
-
-    .img-dish2 {
-        margin: 20px 0;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .center-line {
-        width: 90%;
-        margin: 20px auto;
-        margin-top: 50px;
-    }
-    .final-line {
-        width: 90%;
-        margin: 20px auto;
-        margin-top: 60px;
-    }
-
-    .subtotal, .final-price {
-        text-align: center;
-        margin: 20px 0;
-    }
-
-    .button-advance {
-        margin: 20px auto;
-        display: block;
-        text-align: center;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .social-icons {
-        justify-content: center;
-    }
-    .header-container{
-        margin: 0 20vw;
-        gap: 30px;
-    }
-
-    .menu-header ul {
-        font-size: 18px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px 0px;
-        text-align: center;
-    }
-
-    
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        font-family: "Inter", sans-serif;
-        border-top: 12px solid;
-        border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-        gap: 0;
-        padding-top: 10px;
-        align-items: center;
-        width: 80%vw;
-    }
-
-    .menufooter ul {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 18px;
-    }
-
-    .menufooter ul li a {
-        margin-right: 0px;
-    }
-
-    .social-icons {
-        align-items: center;
-    }
-
-    .logo-footer {
-        padding-top: 20px;
-        padding-right: 0;
-    }
-
-    .creditos {
-        text-align: center;
-        font-size: 16px;
-        font-family: "Inter";
-        margin: 10px 20px;
-    }
-
-    .Back_Button {
-        left: 20px;
-    }
-}
-
