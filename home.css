@@ -7,6 +7,7 @@ h3 {
     overflow: hidden;
 }
 .banner1-contenedor img {
+
     width: 100%;
     position: center;
     height: auto;
@@ -32,6 +33,7 @@ h3 {
     text-align: center;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .comidas-container div:hover {
     transform: scale(1.1);
@@ -103,6 +105,9 @@ h3 {
     background-color: #00923F;
     text-align: center;
 }
+
+/* ---------------------Mobile Body------------------ */
+
 @media screen and (max-width :768px){
     .banner1-contenedor {
         position: grid;
@@ -154,51 +159,3 @@ h3 {
         margin: 10px 0 20px 0;
     }
 }
-/*------------------------Footer------------------------*/
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: "Inter", sans-serif;
-    border-top: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    gap: 10px;
-    padding-top: 10px;
-}
-.logo-footer {
-    padding-top: 20px;
-    padding-right: 40px;
-}
-
-.menufooter {
-    margin-top: 50px;
-}
-
-.menufooter ul li {
-    display: inline;
-}
-
-.menufooter ul li a {
-    color: #636363;
-    text-decoration: none;
-    margin-right: 40px;
-}
-
-.social-icons {
-    margin-top: 35px;
-    display: flex;
-}
-
-.social-icons a {
-    margin-left: 10px;
-}
-
-.creditos {
-    text-align: center;
-    font-size: 14px;
-    font-family: "Inter", sans-serif;
-    padding-bottom: 30px;
-
-}
-
-/*------------------------Footer------------------------*/

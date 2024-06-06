@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/*------------------------HEADER------------------------*/
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    gap: 10px;
+    border-bottom: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu-header {
+    margin-top: 40px;
+}
+
+.menu-header ul li {
+    display: inline;
+    margin-right: 40px;
+
+}
+
+.menu-header ul li a {
+    color: #636363;
+    text-decoration: none;
+}
+
+.fazerpedidos {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+}
+
+.fazerpedidos a {
+    text-decoration: none;
+    background-color: #74A9DB;
+    color: #fff;
+}
+
+/*------------------------HEADER------------------------*/
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4a90e2;
+    padding: 20px 0;
+    gap: 100px;
+}
+
+.item-details {
+    width: 424px;
+    height: 104px;
+}
+
+.item-details h2 {
+    color: #4a90e2;
+    margin: 0 0 10px;
+}
+
+.item-details p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.item-controls {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.remove-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.counter1{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  
+}
+
+#value1 {
+    font-size: 1rem;
+    min-width: 4rem;
+    text-align: center;
+    border-top: groove;
+    border-bottom: groove;
+    border-color: #74A9DB;
+    padding: 0 1rem;
+    margin-left:-5px ;
+   
+}
+
+button {
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.count-button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: #74A9DB;
+}
+
+#minus1 {
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#plus1 {
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item-price {
+    color: #333;
+    margin-left: 20px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.item-price { 
+    
+    margin-right: 25px;
+    color: #74A9DB;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    color: #74A9DB;
+}
+
+.advance{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.button-advance {
+
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #74A9DB;
+    
+}
+
+/*------------------------Footer------------------------*/
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.logo-footer {
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.menufooter {
+    margin-top: 50px;
+}
+
+.menufooter ul li {
+    display: inline;
+}
+
+.menufooter ul li a {
+    color: #636363;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.social-icons {
+    margin-top: 35px;
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.creditos {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 30px;
+
+}
+/*------------------------Footer------------------------*/
+
