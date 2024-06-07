@@ -3,14 +3,13 @@
 
 .title-SAC {
     display: block;
-    margin-top: 130px;
+    margin-top: 85px;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: bolder;
     text-align: left;
     margin-left: 75px;
-    width: 1100px;
 }
 
 .subtitle-SAC {
@@ -22,7 +21,6 @@
     text-align: left;
     margin-top: 15px;
     margin-left: 0%;
-    width: 80%;
 }
 
 .text-SAC {
@@ -180,7 +178,7 @@
 
 .div4 {
     display: flex; 
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 20px;
     flex-direction: column;
     width: 400px;
@@ -215,10 +213,10 @@
 .image3 { 
     display: flex;
     transform: translate(-50%, -50%);
-    width: 55%; 
+    width: 40%; 
     height: auto;
     margin-top: -35%;
-    margin-left: 10%;
+    margin-left: 18%;
     z-index: 2; 
     background-color: transparent;
 }
@@ -228,32 +226,35 @@
 @media screen and (max-width:780px) {
 
     .title-SAC {
-        margin-top: 20%;
-        margin-left: 5%;
-        text-align: justify;
+        width: 90vw;
+        margin-top: 75px;
+        margin-left: 3%;
+        text-align: center;
         font-size: 35px;
     }
 
     .subtitle-SAC {
-        width: 40%;
-        margin-top: 2%;
+        width: 90vw;
+        margin-top: 5%;
         text-align: center;
     }
 
     .text-SAC {
-        width: 100%;
+        width: 90vw;
         text-align: center;
         margin-bottom: 5%;
     }
 
      .main-container {
         flex-direction: column;
+        width: 90vw;
         gap: 5px;
+        justify-content: center;
     }
 
     .child-container {
         width: 450px;
-        margin-left: -60%;
+        justify-content: center;
     }
 
     .div4 {
@@ -267,7 +268,45 @@
     .image3 {
         width: 45%;
         margin-left: 16%;
+        margin-top: -30%;
     }
+}
+
+    @media (min-width: 779px) and (max-width: 1235px) {
+
+        .title-SAC {
+            width: 90vw;
+            margin-top: 75px;
+            margin-left: 5%;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .subtitle-SAC {
+            width: 90vw;
+            margin-top: 5%;
+            text-align: center;
+        }
+    
+        .text-SAC {
+            width: 90vw;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+        .main-container {
+            flex-direction: column;
+            width: 90vw;
+            justify-content: center;
+            gap: 5px;
+        }
+    
+        .child-container {
+            justify-content: center;
+            width: 600px
+
+
+            
+        }
 }
 
 
