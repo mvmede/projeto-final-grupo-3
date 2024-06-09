@@ -58,10 +58,9 @@ h1 {
     text-decoration: none;
 }
 
-.remove-link {
-    color: #007BFF;
-    text-decoration: none; 
-    margin-right: 20px;
+.remover-link {
+    color: black;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -149,7 +148,43 @@ button {
     padding-left: 32px;
     padding-right: 32px;
     background-color: #74A9DB;
-    
+    margin-top: 50px;
 }
 
+@media screen and (max-width :768px){
+
+    .back-link{
+
+        margin-left: 120px;
+    }
+    
+    .order-item {
+        flex-direction: column; 
+        align-items: center; 
+      }
+    
+      .item-details, .item-controls {
+        width: 100%; 
+        text-align: center;
+        margin-bottom: 10px; 
+      }
+
+      .item-details p{
+        visibility: hidden;
+        
+      }
+
+    
+      .item-controls {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-top: -200px;
+      }
+    
+      .item-image img {
+        max-width: 100%; 
+        height: auto; 
+      }
+    }
 
