@@ -1,170 +1,141 @@
-
 /*------------------------BODY-----------------------*/
-
-.title-SAC {
-    display: block;
-    margin-top: 85px;
+.title-SAC { 
+    text-align: center;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: bolder;
-    text-align: left;
-    margin-left: 75px;
+    margin: 2% 10% 0 10%;
+    overflow: visible;
+    width: 80%;
+    height: auto;
 }
-
 .subtitle-SAC {
     display: block;
+    margin: 2% auto 2% auto;
     color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: normal;
-    text-align: left;
-    margin-top: 15px;
-    margin-left: 0%;
 }
-
 .text-SAC {
     display: block;
-    margin-bottom: 80px;
+    margin: 3% auto 3% auto;
     color: black;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400px;
-    text-align: normal;
-    margin-left: 0%;
-    width: 1100px;
+    width: 100%;
 }
-
 .main-container {
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 1100px;
+    margin: 1% auto 3% auto;
+    width: 100%;
     gap: 30px;
     justify-content: center;
     align-items: center;
 }
-
 .child-container {
     display: flex; 
+    margin: 2% auto 2% auto;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    width: 800px;
-    height: 503px;
+    width: 80%;
+    height: 100%;
     background-color: #a4cff5;
     border-radius: 20px; 
-    margin-bottom: 40px;
     gap: 20px;
 }
-
 .div0 {
     display: block;
     background-color: transparent;
     color: #3873a6;
     font-family: "Inter";
+    width: 90%;
     margin: 50px;
+    gap: 20%;
     z-index: 1;
 }
-
 .div1 {
-    display: flex; 
-    margin-top: -30px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 400px;
-    height: 100px;
+    display: block; 
+    margin: 5% auto 4% auto;
+    width: 80%;
+    height: 110%;
     color: #c4d6e7;           
     font-weight: bold;       
     font-size: 50px; 
     background-color: #3873a6;
     border-radius: 20px
 }
-
 .div2 {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 400px;
-    height: 100px;
+    display: block;
+    margin: 2% auto 4% auto;
+    width: 80%;
+    height: 110%;
     color: #c4d6e7;           
     font-weight: bold;       
     font-size: 50px; 
     background-color: #3873a6;
     border-radius: 20px; 
 }
-
 .div3 {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 400px;
-    height: 64px;
+    display: block;
+    margin: 2% auto 2% auto;
+    width: 80%;
+    height: 120%;
     color: #c4d6e7;           
     font-weight: bold;       
     font-size: 50px; 
     background-color: #00923F;
     border-radius: 20px; 
 }
-
 .atendimento-title {
     display: block;
     text-align: center;
     background-color: transparent; 
     font-weight: bolder;
 }
-
 .fale-title {
     display: block;
     text-align: center;
     background-color: transparent; 
     font-weight: bolder;
 }
-
 .text0 {
     display: block;
+    margin: 2% auto 2% auto;
+    width: 80%;
     font-family: "Inter";
-    text-align: center;
     font-size: 16px;
     color: #3873a6;
     background-color: transparent;
-    margin-top: 20px;
     font-weight: 400;
 }
-
 .text1 {
-    display: block; 
+    display: block;
     align-items: center;
-    margin-left: 25px;
+    margin: 3% auto 2% auto ;
     color: #c4d6e7;           
     font-weight: bold;       
     font-size: 30px; 
     background-color: transparent;
 }
-
 .text2 {
     display: block;
     font-family: "Inter";
     font-size: 16px;
     color: #c4d6e7;           
     background-color: transparent;
-    margin-top: 20px;
     font-weight: 400;
 }
-
 .text3 {
     display: block;
-    align-items: center;
-    margin-left: 25px;
+    margin: 8% auto 8% auto;
     color: #c4d6e7;           
-    font-weight: 300;     
-    font-size: 16px; 
+    font-weight: 900;     
+    font-size: 20px; 
     background-color: transparent;
 }
-
 .text4 {
     display: block;
     font-family: "Inter";
@@ -175,146 +146,101 @@
     margin-top: 20px;
     font-weight: 400;
 }
-
 .div4 {
     display: flex; 
-    margin-top: 20px;
-    margin-left: 20px;
     flex-direction: column;
-    width: 400px;
-    height: 250px;          
+    margin-top: 7%;
+    width: 100%;
+    height: 20%;
     font-weight: bold;       
     font-size: 50px; 
     background-color: #00923F;
     border-radius: 20px; 
-    z-index: 1;
 }
-    
-
 .image1 {
     display: flex;
-    width: 200px;
+    width: 50%;
+    height: auto;
     border-radius: 10px;
-    margin-top: 80px;
-    margin-bottom: 25px;
-    margin-left: 170px;
+    margin: 10% 5% 2% auto;
     flex-direction: column;
 }
-
 .image2 { 
     display: flex;
-    width: 200px;
+    width: 50%;
+    height: auto;
     border-radius: 10px;
-    margin-bottom: 30px;
-    margin-left: 170px;
+    margin: 2% 5% 2% auto;
     flex-direction: column; 
 }
-
 .image3 { 
     display: flex;
-    transform: translate(-50%, -50%);
     width: 40%; 
-    height: auto;
+    height: 40%;
     margin-top: -35%;
-    margin-left: 18%;
+    margin-left: 0%;
     z-index: 2; 
     background-color: transparent;
 }
-
 /*-------------------BODY (MOBILE)---------------------*/
-
 @media screen and (max-width:780px) {
-
     .title-SAC {
-        width: 90vw;
-        margin-top: 75px;
-        margin-left: 3%;
-        text-align: center;
+        width: 100%;
+        margin: 0 auto 0 auto;
         font-size: 35px;
     }
-
     .subtitle-SAC {
-        width: 90vw;
-        margin-top: 5%;
-        text-align: center;
+        width: 90%;
+        margin: 0 auto 0 auto;
     }
-
     .text-SAC {
-        width: 90vw;
-        text-align: center;
+        width: 90%;
         margin-bottom: 5%;
     }
-
      .main-container {
         flex-direction: column;
-        width: 90vw;
+        width: 100%;
         gap: 5px;
-        justify-content: center;
     }
-
     .child-container {
-        width: 450px;
+        width: 100%;
         justify-content: center;
     }
-
-    .div4 {
-        margin-left: 0px;
-    }
-
     .image1, .image2 {
-        width: 190px;
+        width: 50%;
     }
-
     .image3 {
         width: 45%;
-        margin-left: 16%;
-        margin-top: -30%;
+        margin-left: 0%;
+        margin-top: -35%;
     }
 }
-
     @media (min-width: 779px) and (max-width: 1235px) {
-
         .title-SAC {
-            width: 90vw;
-            margin-top: 75px;
-            margin-left: 5%;
-            text-align: center;
+            width: 90%;
+            margin: 0 auto 0 auto;
             font-size: 35px;
         }
-
         .subtitle-SAC {
-            width: 90vw;
-            margin-top: 5%;
-            text-align: center;
+            width: 100%;
+            margin: 0 auto 0 auto;
         }
-    
         .text-SAC {
-            width: 90vw;
-            text-align: center;
-            margin-bottom: 5%;
+            width: 100%;
+            margin: 2% auto 2% auto;
         }
         .main-container {
             flex-direction: column;
-            width: 90vw;
-            justify-content: center;
+            width: 100%;
             gap: 5px;
         }
-    
         .child-container {
             justify-content: center;
-            width: 600px
-
-
-            
+            width: 100%;        
         }
 }
-
-
 /*--------------------------Mobile---------------------*/
-
 @media screen and (max-width:780px) {
-
-
     .title-page {
         margin-top: 60px;
         color: #74A9DB;
@@ -323,7 +249,6 @@
         font-weight: 900;
         text-align: center;
     }
-
     .input-container {
         display: flex;
         justify-content: center;
@@ -336,15 +261,12 @@
         font-family: "Inter";
         font-weight: normal;
     }
-
     .input-container > div > input {
         font-size: 16px;
     }
-
     .input-container > div > p {
         font-size: 20px;
     }
-
     .advance {
         text-decoration: none;
         border-radius: 8px;
@@ -358,5 +280,4 @@
         font-weight: 600;
         background-color: #74A9DB;
     }
-
 }

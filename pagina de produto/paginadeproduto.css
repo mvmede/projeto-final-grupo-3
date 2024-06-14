@@ -54,7 +54,7 @@ p {
 .Text {
     font-family: "Inter";
     font-size: 15px;
-    font-weight: normal;
+    font-weight: normal; 
     text-decoration: none; 
     display: grid;
     grid-template-columns: 490px 1fr; 

@@ -1,12 +1,10 @@
-/* ---------------------------HEADER------------------------ */
-
+/*-----------------------------------------------------HEADER---------------------------------------------------------------*/
 * {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-
 header {
     background-color: #ffffff;
     color: #74A9DB;
@@ -19,7 +17,6 @@ header {
     z-index: 1000;
     position: relative;
 }
-
 .header-container {
     font-family: "Inter";
     display: inline-flex;
@@ -30,17 +27,14 @@ header {
     gap: 40px;
     margin: 20px 0;
 }
-
 .menu-header ul li {
     display: inline-block;
     margin-right: 20px;
 }
-
 .menu-header ul li a {
     color: #636363;
     text-decoration: none;
 }
-
 .fazerpedidos {
     text-decoration: none;
     border-radius: 8px;
@@ -54,11 +48,7 @@ header {
     font-weight: 600;
     background-color: #74A9DB;
 }
-
-
-
-/* ---------------------------FOOTER------------------------ */
-
+/*---------------------------------------------------FOOTER-------------------------------------------------------------*/
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -73,49 +63,36 @@ header {
     padding-top: 20px;
     padding-right: 40px;
 }
-
 .menufooter {
     margin-top: 50px;
 }
-
 .menufooter ul li {
     display: inline;
 }
-
 .menufooter ul li a {
     color: #636363;
     text-decoration: none;
     margin-right: 40px;
 }
-
 .social-icons {
     margin-top: 35px;
     display: flex;
 }
-
 .social-icons a {
     margin-left: 10px;
 }
-
 .creditos {
     text-align: center;
     font-size: 14px;
     font-family: "Inter", sans-serif;
     padding-bottom: 30px;
-
 }
-
-
-
 /* -------------------------------------RESPONSIVO------------------------------------- */
-
 @media screen and (max-width:780px) {
-
     .header-container{
         margin: 0 20vw;
         gap: 30px;
     }
-
     .menu-header ul {
         font-size: 18px;
         display: flex;
@@ -124,8 +101,6 @@ header {
         padding: 20px 0px;
         text-align: center;
     }
-
-    
     .footer-container {
         display: flex;
         flex-direction: column;
@@ -139,7 +114,6 @@ header {
         align-items: center;
         width: 80%vw;
     }
-
     .menufooter ul {
         align-items: center;
         display: flex;
@@ -147,30 +121,23 @@ header {
         gap: 20px;
         font-size: 18px;
     }
-
     .menufooter ul li a {
         margin-right: 0px;
     }
-
     .social-icons {
         align-items: center;
     }
-
     .logo-footer {
         padding-top: 20px;
         padding-right: 0;
     }
-
     .creditos {
         text-align: center;
         font-size: 16px;
         font-family: "Inter";
         margin: 10px 20px;
     }
-
     .Back_Button {
         left: 20px;
     }
-
-
 }

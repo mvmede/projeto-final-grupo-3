@@ -7,7 +7,6 @@ h3 {
     overflow: hidden;
 }
 .banner1-contenedor img {
-
     width: 100%;
     position: center;
     height: auto;
@@ -105,9 +104,7 @@ h3 {
     background-color: #00923F;
     text-align: center;
 }
-
 /* ---------------------Mobile Body------------------ */
-
 @media screen and (max-width :768px){
     .banner1-contenedor {
         position: grid;
