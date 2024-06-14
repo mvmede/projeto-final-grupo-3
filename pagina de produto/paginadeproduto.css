@@ -16,7 +16,7 @@ p {
 }
 .Back_Button {
     position: relative;
-    left: calc(52.5% - 500px);
+    margin: 0 85% 2% 15%;
     top: 20px;
     font-size: 20px;
     color: #74A9DB;
@@ -37,14 +37,13 @@ p {
     border-color: transparent #74A9DB transparent transparent;
 }
 .Product_Container {
-    width: 1000px;
-    margin: auto;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: 0 auto 0 auto;
     overflow: visible;
 }
 .Subtitle {
     font-family: "Inter";
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
     font-weight: 900;
     color: #74A9DB;
@@ -53,26 +52,28 @@ p {
 }
 .Text {
     font-family: "Inter";
-    font-size: 15px;
+    font-size: 20px;
+    margin: 0 auto 0 auto;
     font-weight: normal; 
     text-decoration: none; 
     display: grid;
-    grid-template-columns: 490px 1fr; 
+    grid-template-columns: 50% 1fr; 
     gap: 20px;
-    width: 100%;
+    width: 90%;
     color: #3f3f3f;
-    position: relative;
     text-align: center;
-    top: 10px;
 }
 .Product_Image {
-    max-width: 490px;
+    text-align: left;
+    width: 100%;
     border-radius: 30px;
 }
 .Add_to_Cart {
     text-decoration: none;
     border-radius: 8px;
+    width: 60%;
     border: 1px solid;
+    margin: 2% auto 2% auto;
     border-color: #74A9DB;
     font-family: "Inter", sans-serif;
     font-size: medium;
@@ -81,7 +82,6 @@ p {
     padding-right: 32px;
     font-weight: 600;
     background-color: #74A9DB;
-    margin-top: 10px;
 }
 .footer-container {
     display: flex;
@@ -122,31 +122,51 @@ p {
     padding-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
+    .Back_Button {
+        margin: 0 90% 2% auto;
+    }
     .Product_Container {   
-        gap: 20px;
-        width: 100%; 
-        max-width: 92%;
-        margin-top: 30px;
+        width: 100%;
         overflow: visible;
         height: 100%;
+        padding: auto;
     }
     .Text {
+        width: 100%;
+        margin: 0 auto 0 auto;
         font-family: "Inter";
-        font-size: 15px;
+        font-size: 18px;
         font-weight: normal;
         text-decoration: none; 
         color: #3f3f3f;
-        position: relative;
-        text-align: center;
+        width: 90%;
+        grid-template-columns: 1fr;
+        bottom: 100px; 
+    }
+    .Product_Image {
+        width: 90%;
+        border-radius: 30px;
+    }
+} 
+@media (min-width: 779px) and (max-width: 1235px) {
+    .Product_Container {   
+        gap: 20px;
+        width: 90%; 
+        margin: 0 auto 0 auto;
+        overflow: visible;
+    }
+    .Text {
+        font-family: "Inter";
+        font-size: 18px;
+        font-weight: normal;
+        text-decoration: none; 
+        color: #3f3f3f;
         top: 10px;
         grid-template-columns: 1fr; 
     }
     .Product_Image {
         width: 100%;
-        position: relative;
-        text-align: center;
-        max-width: 500px;
         margin-top: 20px;
         border-radius: 30px;
-    }
+    }   
 }

@@ -4,24 +4,27 @@
     font-family: "Inter";
     font-size: 40px;
     font-weight: 900;
-    margin-top: 80px;
+    margin: 2% auto 2% auto;
     text-align: center;
 }
 .conteudo {
-    width: auto;
     display: flex;
-    padding: 0 20rem;
-    align-items: center;
-}
-.textosobrenos {
-    margin-right: auto;
-    font-family: "Inter";
-    color: 262626;
-    width: 40rem;
+    width: 80%;
+    position: relative;
+    margin: 2% auto 2% 15%;
+    overflow: visible;
     gap: 20px;
 }
+.textosobrenos {
+    font-family: "Inter";
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 80%;
+    height: 80%;
+}
 .imagemrestaurante {
-    padding-top: 0px;
+    width: 80%;
+    height: auto;
 }
 .boldtext {
     color: #00923F;
@@ -45,45 +48,6 @@
 .imagem3 {
     padding: 50px;
 }
-/*------------------------Footer------------------------*/
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: "Inter", sans-serif;
-    border-top: 12px solid;
-    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
-    gap: 10px;
-    padding-top: 10px;
-}
-.logo-footer {
-    padding-top: 20px;
-    padding-right: 40px;
-}
-.menufooter {
-    margin-top: 50px;
-}
-.menufooter ul li {
-    display: inline;
-}
-.menufooter ul li a {
-    color: #636363;
-    text-decoration: none;
-    margin-right: 40px;
-}
-.social-icons {
-    margin-top: 35px;
-    display: flex;
-}
-.social-icons a {
-    margin-left: 10px;
-}
-.creditos {
-    text-align: center;
-    font-size: 14px;
-    font-family: "Inter", sans-serif;
-    padding-bottom: 30px;
-}
 /*------------------------Mobile------------------------*/
 @media screen and (max-width:780px) {
     .sobrenos {
@@ -95,10 +59,10 @@
         text-align: center;
     }
     .conteudo {
-        width: auto;
+        width: 85%;
         display: inline;
         padding: 0;
-        align-items: center;
+        
     }
     .conteudo img {
         width: 80vw;
@@ -128,8 +92,8 @@
         margin-right: 0;
         font-family: "Inter";
         color: #262626;
-        margin: 0 1rem;
-        width: auto;
+        margin: 0 auto 0 10%;
+        width: 80%;
         font-size: 18px;
         gap: 20px;
         margin-bottom: 3rem;
