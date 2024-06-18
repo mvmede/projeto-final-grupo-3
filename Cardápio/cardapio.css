@@ -76,6 +76,10 @@ a {
         height: auto;
         border-radius: 20px;
     }
+    .descricaocomida{
+        width: 90%;
+        margin: auto auto;
+    }
 }
 .titulocomida {
     text-align: center;
