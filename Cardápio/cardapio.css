@@ -1,12 +1,9 @@
 * {
     margin: 0;
 }
-
 a {
     text-decoration: none;
 }
-
-
 /*------------------------Banner Países------------------------*/
 .banner-paises img {
     display: block;
@@ -14,14 +11,10 @@ a {
     height: auto;
     max-width: 100%;
 }
-
-/*------------------------Banner Países------------------------*/
-
 /*------------------------Bucas por Países------------------------*/
 .cardapio_paises {
     margin-bottom: 30px;
 }
-
 .titulocardapio {
     font-family: "Inter";
     font-size: 40px;
@@ -31,14 +24,12 @@ a {
     margin-bottom: 40px;
     margin-top: 40px;
 }
-
 .paises-container {
     flex-wrap: wrap;
     text-align: center;
     display: flex;
     justify-content: center;
 }
-
 .paises-container p {
     font-family: "Inter";
     font-size: 20px;
@@ -48,16 +39,11 @@ a {
     padding-right: 30px;
     padding-left: 30px;
 }
-
 .paises-container p a {
     text-decoration: none;
     color: inherit;
 }
-
-/*------------------------Bucas por Países------------------------*/
-
 /*------------------------Comidas Container------------------------*/
-
 .container-comidas {
     display: flex;
     flex-wrap: wrap;
@@ -66,22 +52,31 @@ a {
     margin: 0 auto;
     font-family: "inter";
 }
-
 .comida {
     width: calc(50% - 20px);
     max-width: 420px;
     text-align: center;
     margin: 20px 10px;
 }
-
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 780px) {
     .container-comidas .comida {
         width: 100%;
         margin: 20px auto;
     }
+    .container-comidas {
+        max-width: 100%;
+        height: auto;
+    }
+    .comida {
+        width: 80%;
+        height: auto;
+    }
+    .comida img {
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+    }
 }
-
-
 .titulocomida {
     text-align: center;
     color: #262626;
@@ -89,19 +84,16 @@ a {
     font-weight: bolder;
     margin: 10px 0;
 }
-
 .titulocomida a {
     text-decoration: none;
     color: #262626;
 }
-
 .valor {
     text-align: center;
     font-weight: bolder;
     font-size: 19px;
     margin: 10px 0;
 }
-
 .AdicionarPedido {
     text-decoration: none;
     border-radius: 10px;
@@ -115,11 +107,8 @@ a {
     background-color: #74A9DB;
     margin-bottom: 40px;
 }
-
 .comida button a {
     text-decoration: none;
     background-color: #74A9DB;
     color: #fff;
 }
-
-/*------------------------Comidas Container------------------------*/
